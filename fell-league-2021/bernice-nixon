@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../logo.svg" />
+    <title>PFR Fell League</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="maindiv">
+      <img
+        class="logo"
+        src="../logo.svg"
+        alt="Penistone Footpath Runners &amp; AC"
+      />
+      <div class="title">
+        <h1>Penistone Footpath Runners & AC</h1>
+        <h2>2021 Fell League</h2>
+      </div>
+      <br><br><table class="minibox" style="width:800px"><tr><th><a href="fell-league-female">Female</a></th><th><a href="fell-league-male">Male</a></th><th><a href="races">Races</a></th><th><a href="https://pfrac.co.uk/competitions/fell-league">Information</a></th><th><a href="calculator">Points Calculator</a></th></tr></table><h2>Bernice Nixon</h2><table class="minibox" style="width:800px"><tr><th><a href="../runners/bernice-nixon">Click to see results for all of Bernice’s competitions.</a></th></tr></table><p>Note: points are presented as integers. Hover over them to see exact values.</p><div class="column"><em>7th overall</em></div><div><em class="column">1st FV65</em></div><div class="column"><span title="506.694125"><em>507 points</em></span></div><br><br><div class="tablediv"><table ><tr><th class="sticky" style="text-align:left">Race</th><th class="sticky" style="text-align:center">Date</th><th class="sticky" style="text-align:center">Position</th><th class="sticky" style="text-align:right">Time</th><th class="sticky" style="text-align:center">Points</th></tr><tr><td><a href="hoppits-hill">Hoppits Hill</a></td><td>11/04/2021</td><td>132</td><td style="text-align:right">35:12</td><td><span title="62.68342">63</span></td></tr><tr><td><a href="trunce-7">Trunce 7</a></td><td>26/07/2021</td><td> 87</td><td style="text-align:right">49:03</td><td><span title="74.30285">74</span></td></tr><tr><td><a href="eccles-pike">Eccles Pike</a></td><td>11/08/2021</td><td>156</td><td style="text-align:right">43:19</td><td><span title="69.92843">70</span></td></tr><tr><td><a href="trunce-8">Trunce 8</a></td><td>16/08/2021</td><td> 86</td><td style="text-align:right">46:25</td><td><span title="78.38828">78</span></td></tr><tr><td><a href="ian-roberts-memorial">Ian Roberts Memorial</a></td><td>19/09/2021</td><td>544</td><td style="text-align:right">91:39</td><td><span title="72.71234">73</span></td></tr><tr><td><a href="bradwell">Bradwell</a></td><td>09/10/2021</td><td> 90</td><td style="text-align:right">66:06</td><td><span title="72.90210">73</span></td></tr><tr><td><a href="bill-fox-gravy-pud-race">Bill Fox Gravy Pud Race</a></td><td>05/12/2021</td><td>168</td><td style="text-align:right">65:02</td><td><span title="75.77671">76</span></td></tr></table></div>
+    </div>
+  </body>
+</html>

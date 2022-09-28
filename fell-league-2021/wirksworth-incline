@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../logo.svg" />
+    <title>PFR Fell League</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="maindiv">
+      <img
+        class="logo"
+        src="../logo.svg"
+        alt="Penistone Footpath Runners &amp; AC"
+      />
+      <div class="title">
+        <h1>Penistone Footpath Runners & AC</h1>
+        <h2>2021 Fell League</h2>
+      </div>
+      <br><br><table class="minibox" style="width:800px"><tr><th><a href="fell-league-female">Female</a></th><th><a href="fell-league-male">Male</a></th><th><a href="races">Races</a></th><th><a href="https://pfrac.co.uk/competitions/fell-league">Information</a></th><th><a href="calculator">Points Calculator</a></th></tr></table><h2>Wirksworth Incline</h2><p>Note: points are presented as integers. Hover over them to see exact values.</p><table ><tr><td>Colin Davenport (Matlock AC)</td><td>M</td><td>26:45</td></tr><tr><td>Ruth Keeley (Belper)</td><td>F</td><td>30:46</td></tr></table><p></p><em>2 Penistone runners</em><p></p><br><div class="tablediv"><table ><tr><th class="sticky" style="text-align:left">Name</th><th class="sticky" style="text-align:center">Position</th><th class="sticky" style="text-align:center">Time</th><th class="sticky" style="text-align:left;padding-left:40px">Category</th><th class="sticky" style="text-align:center">Points</th></tr><tr><td><a href="sarah-walch">Sarah Walch</a></td><td>47</td><td>35:38</td><td style="text-align:left;padding-left:40px">FV40</td><td><span title="89.40703">89</span></td></tr><tr><td><a href="steve-dickinson">Steve Dickinson</a></td><td>53</td><td>36:18</td><td style="text-align:left;padding-left:40px">MV55</td><td><span title="77.97847">78</span></td></tr></table></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../logo.svg" />
+    <title>PFR parkrun Competition</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="maindiv">
+      <img
+        class="logo"
+        src="../logo.svg"
+        alt="Penistone Footpath Runners &amp; AC"
+      />
+      <div class="title">
+        <h1>Penistone Footpath Runners & AC</h1>
+        <h2>2021 parkrun Competition</h2>
+      </div>
+      <table align="center" class="minibox" style="width:512px">
+  <tr>
+    <th>
+      <a href="overall">Back to overall table</a>
+    </th>
+  </tr>
+</table>
+<h2>Colin Porteous</h2><table class="minibox" style="width:512px"><th><a href="../runners/colin-porteous">Click to see results for all of Colin's competitions.</a></th></table><p>Lifetime total: 28 parkruns</p><p>Done 0 different parkruns.</p><p>18 total points.</p><table ><tr><th class="sticky" style="text-align:left"><strong>Location</strong></th><th class="sticky"><strong>Date</strong></th><th class="sticky"><strong>Time</strong></th><th class="sticky"><strong>Gender Pos</strong></th><th class="sticky"><strong>Age Cat</strong></th><th class="sticky"><strong>Cat Pos</strong></th><th class="sticky"><strong>Cat Pos Points</strong></th><th class="sticky"><strong>Age Grade</strong></th><th class="sticky"><strong>Age Grade Points</strong></th><th class="sticky"><strong>PB</strong></th><th class="sticky"><strong>PB Points</strong></th><th class="sticky"><strong>Distance</strong></th><th class="sticky"><strong>Distance Points</strong></th><th class="sticky"><strong>Runner Count</strong></th><th class="sticky"><strong>Runner Count Points</strong></th><th class="sticky"><strong>Total Points</strong></th></tr><tr><td><strong>Penistone</strong></td><td><strong><a href="2021-12-04">2021-12-04</a></strong></td><td><strong>29:24</strong></td><td><strong>27</strong></td><td><strong>VM60–64</strong></td><td><strong>4</strong></td><td><strong>3</strong></td><td><strong>55.50%</strong></td><td><strong>3</strong></td><td><strong></strong></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>6</strong></td><td><strong>87</strong></td><td><strong>6</strong></td><td><strong>18</strong></td></tr></table>
+    </div>
+  </body>
+</html>

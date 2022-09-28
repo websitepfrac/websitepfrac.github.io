@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="charset=utf-8">
+  <link rel="icon" href="../icon.png">
+  <title>PFR parkrun Competition</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="maindiv">
+    <img class="logo" src="../logo.svg" alt=
+    "Penistone Footpath Runners &amp; AC">
+    <div class="title">
+      <h1>Penistone Footpath Runners & AC</h1>
+      <h2>2020 parkrun Competition</h2>
+    </div><table align="center" class="minibox" style="width:512px">
+  <tr>
+    <th>
+      <a href="overall">Back to overall table</a>
+    </th>
+  </tr>
+</table>
+<h2>Rothwell</h2><table ><tr><th class="sticky" style="text-align:left">parkrunner</th><th class="sticky" style="text-align:center">Date</th><th class="sticky" style="text-align:center">Time</th><th class="sticky" style="text-align:center">Age Cat</th><th class="sticky" style="text-align:center">Cat Pos</th><th class="sticky" style="text-align:center">Cat Pos Points</th><th class="sticky" style="text-align:center">Age Grade</th><th class="sticky" style="text-align:center">Age Grade Points</th><th class="sticky" style="text-align:center">PB</th><th class="sticky" style="text-align:center">PB Points</th><th class="sticky" style="text-align:center">Total Points</th></tr><tr><td><a href="hannah-butcher">Hannah Butcher</a></td><td><a href="2020-02-08">2020-02-08</a></td><td>21:20</td><td>SW30–34</td><td> 2</td><td>5</td><td>69.45%</td><td>5</td><td></td><td>0</td><td>10</td></tr><tr><td><a href="martyn-cartwright">Martyn Cartwright</a></td><td><a href="2020-02-29">2020-02-29</a></td><td>37:34</td><td>VM70–74</td><td> 3</td><td>4</td><td>48.85%</td><td>1</td><td></td><td>0</td><td> 5</td></tr><tr><td><a href="matthew-coldwell">Matthew Coldwell</a></td><td><a href="2020-01-11">2020-01-11</a></td><td>24:11</td><td>VM40–44</td><td> 8</td><td>2</td><td>58.17%</td><td>3</td><td>Yes</td><td>3</td><td> 8</td></tr><tr><td><a href="myfanwy-cross">Myfanwy Cross</a></td><td><a href="2020-01-11">2020-01-11</a></td><td>29:33</td><td>VW35–39</td><td> 6</td><td>2</td><td>50.76%</td><td>2</td><td>Yes</td><td>3</td><td> 7</td></tr><tr><td><a href="peter-cross">Peter Cross</a></td><td><a href="2020-01-11">2020-01-11</a></td><td>31:04</td><td>VM65–69</td><td> 6</td><td>2</td><td>54.99%</td><td>2</td><td></td><td>0</td><td> 4</td></tr><tr><td><a href="steve-dommett">Steve Dommett</a></td><td><a href="2020-01-11">2020-01-11</a></td><td>24:36</td><td>VM55–59</td><td> 4</td><td>3</td><td>64.09%</td><td>4</td><td>Yes</td><td>3</td><td>10</td></tr><tr><td><a href="james-fryers">James Fryers</a></td><td><a href="2020-01-11">2020-01-11</a></td><td>23:15</td><td>JM15–17</td><td> 2</td><td>5</td><td>59.86%</td><td>3</td><td></td><td>0</td><td> 8</td></tr><tr><td><a href="paul-fryers">Paul Fryers</a></td><td><a href="2020-01-11">2020-01-11</a></td><td>25:30</td><td>VM50–54</td><td> 9</td><td>2</td><td>58.76%</td><td>3</td><td></td><td>0</td><td> 5</td></tr><tr><td><a href="tom-fryers">Tom Fryers</a></td><td><a href="2020-01-11">2020-01-11</a></td><td>21:17</td><td>JM15–17</td><td> 1</td><td>6</td><td>63.43%</td><td>4</td><td>Yes</td><td>3</td><td>13</td></tr><tr><td><a href="bryan-harrod">Bryan Harrod</a></td><td><a href="2020-01-11">2020-01-11</a></td><td>25:30</td><td>VM45–49</td><td> 9</td><td>2</td><td>56.47%</td><td>3</td><td></td><td>0</td><td> 5</td></tr><tr><td><a href="jackie-howsham">Jackie Howsham</a></td><td><a href="2020-01-11">2020-01-11</a></td><td>26:08</td><td>VW55–59</td><td> 1</td><td>6</td><td>68.37%</td><td>5</td><td>Yes</td><td>3</td><td>14</td></tr><tr><td><a href="john-howsham">John Howsham</a></td><td><a href="2020-01-11">2020-01-11</a></td><td>21:29</td><td>VM55–59</td><td> 1</td><td>6</td><td>71.53%</td><td>6</td><td>Yes</td><td>3</td><td>15</td></tr><tr><td><a href="martin-hughes">Martin Hughes</a></td><td><a href="2020-01-11">2020-01-11</a></td><td>22:47</td><td>VM60–64</td><td> 2</td><td>5</td><td>70.37%</td><td>6</td><td>Yes</td><td>3</td><td>14</td></tr><tr><td><a href="john-lawcock">John Lawcock</a></td><td><a href="2020-01-11">2020-01-11</a></td><td>23:10</td><td>VM50–54</td><td> 5</td><td>3</td><td>65.25%</td><td>5</td><td></td><td>0</td><td> 8</td></tr><tr><td><a href="annie-lightowler">Annie Lightowler</a></td><td><a href="2020-01-11">2020-01-11</a></td><td>32:55</td><td>VW45–49</td><td>15</td><td>1</td><td>49.72%</td><td>1</td><td></td><td>0</td><td> 2</td></tr></table>
+  </div>
+</body>
+</html>

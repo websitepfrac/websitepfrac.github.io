@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../logo.svg" />
+    <title>PFR Fell League</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="maindiv">
+      <img
+        class="logo"
+        src="../logo.svg"
+        alt="Penistone Footpath Runners &amp; AC"
+      />
+      <div class="title">
+        <h1>Penistone Footpath Runners & AC</h1>
+        <h2>2021 Fell League</h2>
+      </div>
+      <br><br><table class="minibox" style="width:800px"><tr><th><a href="fell-league-female">Female</a></th><th><a href="fell-league-male">Male</a></th><th><a href="races">Races</a></th><th><a href="https://pfrac.co.uk/competitions/fell-league">Information</a></th><th><a href="calculator">Points Calculator</a></th></tr></table><h2>Bill Fox Gravy Pud Race</h2><p>Note: points are presented as integers. Hover over them to see exact values.</p><table ><tr><td>Joshua Southall (Glossopdale)</td><td>M</td><td>39:45</td></tr><tr><td>Aritri Mandal (Dark Peak)</td><td>F</td><td>46:29</td></tr></table><p></p><em>5 Penistone runners</em><p></p><br><div class="tablediv"><table ><tr><th class="sticky" style="text-align:left">Name</th><th class="sticky" style="text-align:center">Position</th><th class="sticky" style="text-align:center">Time</th><th class="sticky" style="text-align:left;padding-left:40px">Category</th><th class="sticky" style="text-align:center">Points</th></tr><tr><td><a href="daniel-limb">Daniel Limb</a></td><td> 43</td><td>47:20</td><td style="text-align:left;padding-left:40px">MV35</td><td><span title="87.40492">87</span></td></tr><tr><td><a href="rebecca-timms">Rebecca Timms</a></td><td> 87</td><td>52:51</td><td style="text-align:left;padding-left:40px">FV40</td><td><span title="90.74050">91</span></td></tr><tr><td><a href="steve-dickinson">Steve Dickinson</a></td><td>104</td><td>55:07</td><td style="text-align:left;padding-left:40px">MV55</td><td><span title="76.42331">76</span></td></tr><tr><td><a href="lesley-parker">Lesley Parker</a></td><td>114</td><td>56:13</td><td style="text-align:left;padding-left:40px">FV45</td><td><span title="86.28578">86</span></td></tr><tr><td><a href="bernice-nixon">Bernice Nixon</a></td><td>168</td><td>65:02</td><td style="text-align:left;padding-left:40px">FV65</td><td><span title="75.77671">76</span></td></tr></table></div>
+    </div>
+  </body>
+</html>

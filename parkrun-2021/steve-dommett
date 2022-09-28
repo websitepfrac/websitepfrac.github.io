@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../logo.svg" />
+    <title>PFR parkrun Competition</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="maindiv">
+      <img
+        class="logo"
+        src="../logo.svg"
+        alt="Penistone Footpath Runners &amp; AC"
+      />
+      <div class="title">
+        <h1>Penistone Footpath Runners & AC</h1>
+        <h2>2021 parkrun Competition</h2>
+      </div>
+      <table align="center" class="minibox" style="width:512px">
+  <tr>
+    <th>
+      <a href="overall">Back to overall table</a>
+    </th>
+  </tr>
+</table>
+<h2>Steve Dommett</h2><table class="minibox" style="width:512px"><th><a href="../runners/steve-dommett">Click to see results for all of Steve's competitions.</a></th></table><p>Lifetime total: 58 parkruns</p><p>Done 2 different parkruns.</p><p>64 total points.</p><table ><tr><th class="sticky" style="text-align:left"><strong>Location</strong></th><th class="sticky"><strong>Date</strong></th><th class="sticky"><strong>Time</strong></th><th class="sticky"><strong>Gender Pos</strong></th><th class="sticky"><strong>Age Cat</strong></th><th class="sticky"><strong>Cat Pos</strong></th><th class="sticky"><strong>Cat Pos Points</strong></th><th class="sticky"><strong>Age Grade</strong></th><th class="sticky"><strong>Age Grade Points</strong></th><th class="sticky"><strong>PB</strong></th><th class="sticky"><strong>PB Points</strong></th><th class="sticky"><strong>Distance</strong></th><th class="sticky"><strong>Distance Points</strong></th><th class="sticky"><strong>Runner Count</strong></th><th class="sticky"><strong>Runner Count Points</strong></th><th class="sticky"><strong>Total Points</strong></th></tr><tr><td><strong>Penistone</strong></td><td><strong><a href="2021-09-04">2021-09-04</a></strong></td><td><strong>27:54</strong></td><td><strong> 56</strong></td><td><strong>VM60–64</strong></td><td><strong>3</strong></td><td><strong>4</strong></td><td><strong>57.47%</strong></td><td><strong>3</strong></td><td><strong></strong></td><td><strong>0</strong></td><td><strong> 0</strong></td><td><strong>6</strong></td><td><strong>161</strong></td><td><strong>3</strong></td><td><strong>16</strong></td></tr><tr><td><strong>Peel</strong></td><td><strong><a href="2021-09-25">2021-09-25</a></strong></td><td><strong>28:28</strong></td><td><strong>136</strong></td><td><strong>VM60–64</strong></td><td><strong>6</strong></td><td><strong>2</strong></td><td><strong>56.32%</strong></td><td><strong>3</strong></td><td><strong></strong></td><td><strong>0</strong></td><td><strong>26</strong></td><td><strong>3</strong></td><td><strong>299</strong></td><td><strong>0</strong></td><td><strong> 8</strong></td></tr><tr><td><strong>Penistone</strong></td><td><strong><a href="2021-10-30">2021-10-30</a></strong></td><td><strong>29:08</strong></td><td><strong> 46</strong></td><td><strong>VM60–64</strong></td><td><strong>4</strong></td><td><strong>3</strong></td><td><strong>55.03%</strong></td><td><strong>3</strong></td><td><strong></strong></td><td><strong>0</strong></td><td><strong> 0</strong></td><td><strong>6</strong></td><td><strong>116</strong></td><td><strong>3</strong></td><td><strong>15</strong></td></tr><tr><td>Penistone</td><td><a href="2021-11-13">2021-11-13</a></td><td>27:56</td><td> 45</td><td>VM60–64</td><td>5</td><td>3</td><td>57.40%</td><td>3</td><td></td><td>0</td><td> 0</td><td>6</td><td>127</td><td>3</td><td>15</td></tr><tr><td><strong>Witton</strong></td><td><strong><a href="2021-11-20">2021-11-20</a></strong></td><td><strong>30:36</strong></td><td><strong> 52</strong></td><td><strong>VM60–64</strong></td><td><strong>4</strong></td><td><strong>3</strong></td><td><strong>52.40%</strong></td><td><strong>2</strong></td><td><strong></strong></td><td><strong>0</strong></td><td><strong>39</strong></td><td><strong>0</strong></td><td><strong>111</strong></td><td><strong>3</strong></td><td><strong> 8</strong></td></tr><tr><td><strong>Penistone</strong></td><td><strong><a href="2021-12-18">2021-12-18</a></strong></td><td><strong>29:19</strong></td><td><strong> 39</strong></td><td><strong>VM60–64</strong></td><td><strong>4</strong></td><td><strong>3</strong></td><td><strong>54.69%</strong></td><td><strong>2</strong></td><td><strong></strong></td><td><strong>0</strong></td><td><strong> 0</strong></td><td><strong>6</strong></td><td><strong> 96</strong></td><td><strong>6</strong></td><td><strong>17</strong></td></tr></table>
+    </div>
+  </body>
+</html>

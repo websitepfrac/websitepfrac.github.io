@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../logo.svg" />
+    <title>PFR Fell League</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="maindiv">
+      <img
+        class="logo"
+        src="../logo.svg"
+        alt="Penistone Footpath Runners &amp; AC"
+      />
+      <div class="title">
+        <h1>Penistone Footpath Runners & AC</h1>
+        <h2>2021 Fell League</h2>
+      </div>
+      <br><br><table class="minibox" style="width:800px"><tr><th><a href="fell-league-female">Female</a></th><th><a href="fell-league-male">Male</a></th><th><a href="races">Races</a></th><th><a href="https://pfrac.co.uk/competitions/fell-league">Information</a></th><th><a href="calculator">Points Calculator</a></th></tr></table><h2>Black Combe Dash</h2><p>Note: points are presented as integers. Hover over them to see exact values.</p><table ><tr><td>Billy Cartwright (Matlock AC)</td><td>M</td><td>40:15</td></tr><tr><td>Katherine Maltby (Bristol & West AC)</td><td>F</td><td>45:54</td></tr></table><p></p><em>2 Penistone runners</em><p></p><br><div class="tablediv"><table ><tr><th class="sticky" style="text-align:left">Name</th><th class="sticky" style="text-align:center">Position</th><th class="sticky" style="text-align:center">Time</th><th class="sticky" style="text-align:left;padding-left:40px">Category</th><th class="sticky" style="text-align:center">Points</th></tr><tr><td><a href="julie-darigala">Julie Darigala</a></td><td>111</td><td>56:01</td><td style="text-align:left;padding-left:40px">FV50</td><td><span title="85.63190">86</span></td></tr><tr><td><a href="ray-brown">Ray Brown</a></td><td>226</td><td>86:06</td><td style="text-align:left;padding-left:40px">MV80</td><td><span title="45.14878">45</span></td></tr></table></div>
+    </div>
+  </body>
+</html>

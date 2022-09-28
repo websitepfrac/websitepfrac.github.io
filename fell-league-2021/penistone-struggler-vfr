@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../logo.svg" />
+    <title>PFR Fell League</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="maindiv">
+      <img
+        class="logo"
+        src="../logo.svg"
+        alt="Penistone Footpath Runners &amp; AC"
+      />
+      <div class="title">
+        <h1>Penistone Footpath Runners & AC</h1>
+        <h2>2021 Fell League</h2>
+      </div>
+      <br><br><table class="minibox" style="width:800px"><tr><th><a href="fell-league-female">Female</a></th><th><a href="fell-league-male">Male</a></th><th><a href="races">Races</a></th><th><a href="https://pfrac.co.uk/competitions/fell-league">Information</a></th><th><a href="calculator">Points Calculator</a></th></tr></table><h2>Penistone Struggler VFR</h2><p>Note: points are presented as integers. Hover over them to see exact values.</p><table ><tr><td>Daniel Limb</td><td>M</td><td>50:53</td></tr><tr><td>Rebecca Timms</td><td>F</td><td>55:36</td></tr></table><p></p><em>11 Penistone runners</em><p></p><br><div class="tablediv"><table ><tr><th class="sticky" style="text-align:left">Name</th><th class="sticky" style="text-align:center">Position</th><th class="sticky" style="text-align:center">Time</th><th class="sticky" style="text-align:left;padding-left:40px">Category</th><th class="sticky" style="text-align:center">Points</th></tr><tr><td><a href="daniel-limb">Daniel Limb</a></td><td> 1</td><td>50:53</td><td style="text-align:left;padding-left:40px">MV35</td><td><span title="100.00000">100</span></td></tr><tr><td><a href="steve-dickinson">Steve Dickinson</a></td><td> 2</td><td>54:21</td><td style="text-align:left;padding-left:40px">MV55</td><td><span title="95.24566"> 95</span></td></tr><tr><td><a href="rebecca-timms">Rebecca Timms</a></td><td> 3</td><td>55:36</td><td style="text-align:left;padding-left:40px">FV40</td><td><span title="100.00000">100</span></td></tr><tr><td><a href="steve-storey">Steve Storey</a></td><td> 4</td><td>58:15</td><td style="text-align:left;padding-left:40px">MV60</td><td><span title="90.24676"> 90</span></td></tr><tr><td><a href="helen-wright">Helen Wright</a></td><td> 5</td><td>58:58</td><td style="text-align:left;padding-left:40px">FV35</td><td><span title="95.75926"> 96</span></td></tr><tr><td><a href="alan-knox">Alan Knox</a></td><td> 6</td><td>66:25</td><td style="text-align:left;padding-left:40px">MV65</td><td><span title="80.78239"> 81</span></td></tr><tr><td><a href="steve-dommett">Steve Dommett</a></td><td> 7</td><td>70:55</td><td style="text-align:left;padding-left:40px">MV55</td><td><span title="76.05342"> 76</span></td></tr><tr><td><a href="matthew-coldwell">Matthew Coldwell</a></td><td> 8</td><td>73:17</td><td style="text-align:left;padding-left:40px">MV45</td><td><span title="73.68540"> 74</span></td></tr><tr><td><a href="heather-lindley">Heather Lindley</a></td><td> 9</td><td>74:40</td><td style="text-align:left;padding-left:40px">FV55</td><td><span title="78.73103"> 79</span></td></tr><tr><td><a href="barbara-haigh">Barbara Haigh</a></td><td>10</td><td>78:56</td><td style="text-align:left;padding-left:40px">FV70</td><td><span title="74.72251"> 75</span></td></tr><tr><td><a href="ray-brown">Ray Brown</a></td><td>11</td><td>80:47</td><td style="text-align:left;padding-left:40px">MV80</td><td><span title="66.65678"> 67</span></td></tr></table></div>
+    </div>
+  </body>
+</html>

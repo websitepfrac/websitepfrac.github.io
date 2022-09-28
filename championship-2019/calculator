@@ -1,0 +1,30 @@
+<head><meta http-equiv="Content-Type" content="charset=utf-8"><link rel="icon" href="../icon.png"><title>PFR Club Championship</title><link rel="stylesheet" href="../style.css"></head><body><div class="maindiv"><img class="logo" src="../logo.svg" alt="Penistone Footpath Runners & AC"><div class="title"><h1>Penistone Footpath Runners &amp; AC</h1><h2>2019 Club Championship</h2></div><br><br><table class="minibox" style="width:800px"><tr><th colspan="2">Overall</th><th colspan="2">Road</th><th colspan="2">Cross Country</th><th colspan="2">Fell</th><th colspan="2" rowspan="2"><a href="challenge">Challenge</a></th><th colspan="2" rowspan="2"><a href="https://pfrac.co.uk/competitions/club-championship">Information</a></th><th colspan="2" rowspan="2"><a href="calculator">Points Calculator</th></tr><tr><th><a href="overall-female">F</a></th><th><a href="overall-male">M</a></th><th><a href="road-female">F</a></th><th><a href="road-male">M</a></th><th><a href="cross-country-female">F</a></th><th><a href="cross-country-male">M</a></th><th><a href="fell-female">F</a></th><th><a href="fell-male">M</a></th></tr></table><script src="../logo.svg"></script>
+<form id="calculator" oninput="updateOutput()">
+  <p>Your Time</p>
+  <table>
+    <tr>
+      <th>Hours</th>
+      <th>Minutes</th>
+      <th>Seconds</th>
+    </tr>
+    <tr>
+      <td><input name="yourtimeH" type="number" value="0" min="0"></td>
+      <td><input name="yourtimeM" type="number" value="0" min="0"></td>
+      <td><input name="yourtimeS" type="number" value="0" min="0"></td>
+    </tr>
+  </table>
+  <p>Winner's Time</p>
+  <table>
+    <tr>
+      <th>Hours</th>
+      <th>Minutes</th>
+      <th>Seconds</th>
+    </tr>
+    <tr>
+      <td><input name="wintimeH" type="number" value="0" min="0"></td>
+      <td><input name="wintimeM" type="number" value="0" min="0"></td>
+      <td><input name="wintimeS" type="number" value="0" min="0"></td>
+    </tr>
+  </table>
+  <p>Points: <output name="points" for="yourtimeS yourtimeM yourtimeH wintimeS wintimeM wintimeH">0</output></p>
+</form>

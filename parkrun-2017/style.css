@@ -1,0 +1,40 @@
+a:link {
+    color: #000000;
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #D20000;
+    color: white;
+}
+
+h1 {font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+font-size:30px;
+}
+
+h2
+ {font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../logo.svg" />
+    <title>PFR Fell League</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="maindiv">
+      <img
+        class="logo"
+        src="../logo.svg"
+        alt="Penistone Footpath Runners &amp; AC"
+      />
+      <div class="title">
+        <h1>Penistone Footpath Runners & AC</h1>
+        <h2>2021 Fell League</h2>
+      </div>
+      <br><br><table class="minibox" style="width:800px"><tr><th><a href="fell-league-female">Female</a></th><th><a href="fell-league-male">Male</a></th><th><a href="races">Races</a></th><th><a href="https://pfrac.co.uk/competitions/fell-league">Information</a></th><th><a href="calculator">Points Calculator</a></th></tr></table><h2>Salt Cellar</h2><p>Note: points are presented as integers. Hover over them to see exact values.</p><table ><tr><td>Jonathan Crickmore (Dark Peak)</td><td>M</td><td>52:54</td></tr><tr><td>Abbie Pearse (Steel City)</td><td>F</td><td>64:12</td></tr></table><p></p><em>7 Penistone runners</em><p></p><br><div class="tablediv"><table ><tr><th class="sticky" style="text-align:left">Name</th><th class="sticky" style="text-align:center">Position</th><th class="sticky" style="text-align:center">Time</th><th class="sticky" style="text-align:left;padding-left:40px">Category</th><th class="sticky" style="text-align:center">Points</th></tr><tr><td><a href="tom-fryers">Tom Fryers</a></td><td> 16</td><td>62:48</td><td style="text-align:left;padding-left:40px">MU20</td><td><span title="87.62516">88</span></td></tr><tr><td><a href="julie-darigala">Julie Darigala</a></td><td> 30</td><td>68:39</td><td style="text-align:left;padding-left:40px">FV50</td><td><span title="95.16568">95</span></td></tr><tr><td><a href="rebecca-timms">Rebecca Timms</a></td><td> 61</td><td>73:42</td><td style="text-align:left;padding-left:40px">FV40</td><td><span title="90.04543">90</span></td></tr><tr><td><a href="sarah-walch">Sarah Walch</a></td><td> 68</td><td>76:32</td><td style="text-align:left;padding-left:40px">FV40</td><td><span title="87.32425">87</span></td></tr><tr><td><a href="mark-graham">Mark Graham</a></td><td>110</td><td>85:56</td><td style="text-align:left;padding-left:40px">MV55</td><td><span title="65.00249">65</span></td></tr><tr><td><a href="harriet-drouin">Harriet Drouin</a></td><td>121</td><td>90:43</td><td style="text-align:left;padding-left:40px">F Senior</td><td><span title="75.06028">75</span></td></tr><tr><td><a href="brent-lindsay">Brent Lindsay</a></td><td>134</td><td>97:55</td><td style="text-align:left;padding-left:40px">MV60</td><td><span title="55.58566">56</span></td></tr></table></div>
+    </div>
+  </body>
+</html>

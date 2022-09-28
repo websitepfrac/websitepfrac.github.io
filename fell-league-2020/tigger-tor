@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="charset=utf-8">
+  <link rel="icon" href="../icon.png">
+  <title>PFR Fell League</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="maindiv">
+    <img class="logo" src="../logo.svg" alt=
+    "Penistone Footpath Runners &amp; AC">
+    <div class="title">
+      <h1>Penistone Footpath Runners & AC</h1>
+      <h2>2020 Fell League</h2>
+    </div><br><br><table class="minibox" style="width:800px"><tr><th><a href="fell-league-female">Female</a></th><th><a href="fell-league-male">Male</a></th><th><a href="races">Races</a></th><th><a href="https://pfrac.co.uk/competitions/fell-league">Information</a></th><th><a href="calculator">Points Calculator</a></th></tr></table><h2>Tigger Tor</h2><p>Note: points are presented as integers. Hover over them to see exact values.</p><table ><tr><td>Greg Hopkinson (Unattached)</td><td>M</td><td>71:45</td></tr><tr><td>Phillipa Williams (Sheffield Running Club)</td><td>F</td><td>74:32</td></tr></table><p></p><em>12 Penistone runners</em><p></p><br><div class="tablediv"><table ><tr><th class="sticky" style="text-align:left">Name</th><th class="sticky" style="text-align:center">Position</th><th class="sticky" style="text-align:center">Time</th><th class="sticky" style="text-align:left;padding-left:40px">Category</th><th class="sticky" style="text-align:center">Points</th></tr><tr><td><a href="damian-kilpin">Damian Kilpin</a></td><td> 28</td><td>84:05</td><td style="text-align:left;padding-left:40px">MV40</td><td><span title="88.55795">89</span></td></tr><tr><td><a href="matt-womersley">Matt Womersley</a></td><td> 89</td><td>96:22</td><td style="text-align:left;padding-left:40px">MV35</td><td><span title="78.72223">79</span></td></tr><tr><td><a href="simon-pike">Simon Pike</a></td><td> 93</td><td>97:00</td><td style="text-align:left;padding-left:40px">MV40</td><td><span title="78.2497">78</span></td></tr><tr><td><a href="ian-charlesworth">Ian Charlesworth</a></td><td>114</td><td>1:40:52</td><td style="text-align:left;padding-left:40px">MV55</td><td><span title="75.43006">75</span></td></tr><tr><td><a href="steve-sanders">Steve Sanders</a></td><td>122</td><td>1:41:21</td><td style="text-align:left;padding-left:40px">MV45</td><td><span title="75.08523">75</span></td></tr><tr><td><a href="rebecca-timms">Rebecca Timms</a></td><td>127</td><td>1:41:41</td><td style="text-align:left;padding-left:40px">FV40</td><td><span title="77.59372">78</span></td></tr><tr><td><a href="sarah-walch">Sarah Walch</a></td><td>194</td><td>1:50:19</td><td style="text-align:left;padding-left:40px">FV40</td><td><span title="71.71535">72</span></td></tr><tr><td><a href="nick-thornton">Nick Thornton</a></td><td>207</td><td>1:52:19</td><td style="text-align:left;padding-left:40px">MV35</td><td><span title="67.67394">68</span></td></tr><tr><td><a href="steve-dommett">Steve Dommett</a></td><td>318</td><td>2:13:28</td><td style="text-align:left;padding-left:40px">MV55</td><td><span title="55.22856">55</span></td></tr><tr><td><a href="heather-lindley">Heather Lindley</a></td><td>319</td><td>2:13:40</td><td style="text-align:left;padding-left:40px">FV55</td><td><span title="57.8659">58</span></td></tr><tr><td><a href="harriet-drouin">Harriet Drouin</a></td><td>333</td><td>2:15:11</td><td style="text-align:left;padding-left:40px">F Senior</td><td><span title="57.05202">57</span></td></tr><tr><td><a href="myfanwy-cross">Myfanwy Cross</a></td><td>351</td><td>2:27:39</td><td style="text-align:left;padding-left:40px">FV35</td><td><span title="50.68882">51</span></td></tr></table></div>
+  </div>
+</body>
+</html>

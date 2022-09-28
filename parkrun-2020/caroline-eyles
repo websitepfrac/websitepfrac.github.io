@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="charset=utf-8">
+  <link rel="icon" href="../icon.png">
+  <title>PFR parkrun Competition</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="maindiv">
+    <img class="logo" src="../logo.svg" alt=
+    "Penistone Footpath Runners &amp; AC">
+    <div class="title">
+      <h1>Penistone Footpath Runners & AC</h1>
+      <h2>2020 parkrun Competition</h2>
+    </div><table align="center" class="minibox" style="width:512px">
+  <tr>
+    <th>
+      <a href="overall">Back to overall table</a>
+    </th>
+  </tr>
+</table>
+<h2>Caroline Eyles</h2><table class="minibox" style="width:512px"><th><a href="../runners/caroline-eyles">Click to see results for all of Caroline's competitions.</a></th></table><p>Lifetime total: 39 parkruns</p><p>Volunteered once (15 points)</p><p>Done 6 different parkruns (6 points)</p><p>33 total points.</p><table ><tr><th class="sticky" style="text-align:left">Location</th><th class="sticky" style="text-align:center">Date</th><th class="sticky" style="text-align:center">Time</th><th class="sticky" style="text-align:center">Age Cat</th><th class="sticky" style="text-align:center">Cat Pos</th><th class="sticky" style="text-align:center">Cat Pos Points</th><th class="sticky" style="text-align:center">Age Grade</th><th class="sticky" style="text-align:center">Age Grade Points</th><th class="sticky" style="text-align:center">PB</th><th class="sticky" style="text-align:center">PB Points</th><th class="sticky" style="text-align:center">Total Points</th></tr><tr><td>Pontefract</td><td><a href="2020-01-01">2020-01-01</a></td><td>40:17</td><td>VW45–49</td><td>31</td><td>1</td><td>39.80%</td><td>1</td><td></td><td>0</td><td>2</td></tr><tr><td><strong>Frickley Country</strong></td><td><strong><a href="2020-01-01">2020-01-01</a></strong></td><td><strong>40:42</strong></td><td><strong>VW45–49</strong></td><td><strong>18</strong></td><td><strong>1</strong></td><td><strong>39.39%</strong></td><td><strong>1</strong></td><td><strong></strong></td><td><strong>0</strong></td><td><strong>2</strong></td></tr><tr><td><strong><a href="storthes-hall">Storthes Hall</a></strong></td><td><strong><a href="2020-01-11">2020-01-11</a></strong></td><td><strong>46:01</strong></td><td><strong>VW45–49</strong></td><td><strong> 8</strong></td><td><strong>2</strong></td><td><strong>34.84%</strong></td><td><strong>1</strong></td><td><strong></strong></td><td><strong>0</strong></td><td><strong>3</strong></td></tr><tr><td><strong>Nostell</strong></td><td><strong><a href="2020-01-18">2020-01-18</a></strong></td><td><strong>46:47</strong></td><td><strong>VW45–49</strong></td><td><strong>17</strong></td><td><strong>1</strong></td><td><strong>34.27%</strong></td><td><strong>1</strong></td><td><strong></strong></td><td><strong>0</strong></td><td><strong>2</strong></td></tr><tr><td><strong><a href="penistone">Penistone</a></strong></td><td><strong><a href="2020-02-01">2020-02-01</a></strong></td><td><strong>1:02:09</strong></td><td><strong>VW45–49</strong></td><td><strong>12</strong></td><td><strong>1</strong></td><td><strong>25.80%</strong></td><td><strong>1</strong></td><td><strong></strong></td><td><strong>0</strong></td><td><strong>2</strong></td></tr><tr><td><strong>Witton</strong></td><td><strong><a href="2020-02-29">2020-02-29</a></strong></td><td><strong>46:39</strong></td><td><strong>VW45–49</strong></td><td><strong> 8</strong></td><td><strong>2</strong></td><td><strong>34.37%</strong></td><td><strong>1</strong></td><td><strong></strong></td><td><strong>0</strong></td><td><strong>3</strong></td></tr></table>
+  </div>
+</body>
+</html>
