@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="icon" href="../logo.svg" />
+<title>PFR parkrun Competition</title>
+<link rel="stylesheet" href="../main.css" />
+<link rel="stylesheet" href="../print.css" media="print" />
+<style>.buttons{max-width:512px}</style>
+</head>
+<body>
+<div class="maindiv">
+<img
+class="logo"
+src="../logo.svg"
+alt="Penistone Footpath Runners &amp; AC"
+/>
+<div class="title">
+<h1>Penistone Footpath Runners & AC</h1>
+<h2>2022 parkrun Competition</h2>
+</div>
+<div class="buttons">
+  <a href="overall">Back to overall table</a>
+</div>
+<h2>Martyn Goodwin</h2><div class="buttons"><a href="../runners/martyn-goodwin">Click to see results for all of Martyn’s competitions.</a></div><p>Lifetime total: 231 parkruns</p><p>Done 8 different parkruns (8 points).</p><p>95 total points.</p><table><tr><th class="sticky" style="text-align:left">Location</th><th class="sticky">Date</th><th class="sticky">Time</th><th class="sticky">Gender Pos</th><th class="sticky">Age Cat</th><th class="sticky">Cat Pos</th><th class="sticky">Cat Pos Points</th><th class="sticky">Age Grade</th><th class="sticky">Age Grade Points</th><th class="sticky">PB</th><th class="sticky">PB Points</th><th class="sticky">Total Points</th></tr><tr class="highlighted"><td>Barnsley</td><td><a href="2022-01-01">2022-01-01</a></td><td>22:16</td><td>18</td><td>VM60–64</td><td>2</td><td>5</td><td>73.28%</td><td>6</td><td></td><td>0</td><td>11</td></tr><tr><td>Barnsley</td><td><a href="2022-01-15">2022-01-15</a></td><td>23:02</td><td>19</td><td>VM60–64</td><td>2</td><td>5</td><td>70.84%</td><td>6</td><td></td><td>0</td><td>11</td></tr><tr class="highlighted"><td>Graves</td><td><a href="2022-01-22">2022-01-22</a></td><td>23:50</td><td>25</td><td>VM60–64</td><td>1</td><td>6</td><td>68.46%</td><td>5</td><td></td><td>0</td><td>11</td></tr><tr><td>Barnsley</td><td><a href="2022-02-19">2022-02-19</a></td><td>23:35</td><td>18</td><td>VM60–64</td><td>2</td><td>5</td><td>69.19%</td><td>5</td><td></td><td>0</td><td>10</td></tr><tr class="highlighted"><td>Wakefield Thornes</td><td><a href="2022-04-23">2022-04-23</a></td><td>25:34</td><td>59</td><td>VM60–64</td><td>4</td><td>3</td><td>63.82%</td><td>4</td><td></td><td>0</td><td> 7</td></tr><tr><td>Barnsley</td><td><a href="2022-05-14">2022-05-14</a></td><td>23:51</td><td>25</td><td>VM60–64</td><td>1</td><td>6</td><td>68.41%</td><td>5</td><td></td><td>0</td><td>11</td></tr><tr class="highlighted"><td>Rotherham</td><td><a href="2022-06-04">2022-06-04</a></td><td>23:28</td><td>20</td><td>VM60–64</td><td>2</td><td>5</td><td>69.53%</td><td>5</td><td></td><td>0</td><td>10</td></tr><tr class="highlighted"><td>Penistone</td><td><a href="2022-06-18">2022-06-18</a></td><td>23:20</td><td>20</td><td>VM60–64</td><td>1</td><td>6</td><td>70.57%</td><td>6</td><td></td><td>0</td><td>12</td></tr><tr class="highlighted"><td>Cusworth Hall</td><td><a href="2022-07-23">2022-07-23</a></td><td>22:42</td><td>18</td><td>VM60–64</td><td>1</td><td>6</td><td>72.54%</td><td>6</td><td>Yes</td><td>3</td><td>15</td></tr><tr class="highlighted"><td>Hyde</td><td><a href="2022-08-06">2022-08-06</a></td><td>22:51</td><td>33</td><td>VM60–64</td><td>2</td><td>5</td><td>72.06%</td><td>6</td><td></td><td>0</td><td>11</td></tr><tr><td>Barnsley</td><td><a href="2022-09-03">2022-09-03</a></td><td>23:26</td><td>29</td><td>VM60–64</td><td>2</td><td>5</td><td>70.27%</td><td>6</td><td></td><td>0</td><td>11</td></tr><tr class="highlighted"><td>Dewsbury</td><td><a href="2022-09-17">2022-09-17</a></td><td>24:38</td><td>22</td><td>VM60–64</td><td>2</td><td>5</td><td>66.85%</td><td>5</td><td></td><td>0</td><td>10</td></tr></table>
+</div>
+</body>
+</html>

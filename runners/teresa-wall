@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="icon" href="../logo.svg" />
+<title>PFR Teresa Wall</title>
+<link rel="stylesheet" href="../main.css" />
+<link rel="stylesheet" href="../print.css" media="print" />
+
+</head>
+<body>
+<div class="maindiv">
+<img
+class="logo"
+src="../logo.svg"
+alt="Penistone Footpath Runners &amp; AC"
+/>
+<div class="title">
+<h1>Penistone Footpath Runners & AC</h1>
+<h2>Teresa Wall</h2>
+</div>
+<h3><a class="headinglink" href="../road-standards/teresa-wall">Road Standards</a></h3><h3 style="color:#FFFFFF">60–64</h3><table style="table-layout:fixed"><tr><th class="sticky" style="text-align:center">5K</th><th class="sticky">10K</th><th class="sticky">10M</th><th class="sticky">HM</th><th class="sticky">20M</th><th class="sticky">Mar</th></tr><tr><td style="text-align:center;background-color:#FFFFFF"></td><td style="background-color:#A87900">Penistone 10K</td><td style="background-color:#FFFFFF"></td><td style="background-color:#A87900">Riga Half Marathon</td><td style="background-color:#FFFFFF"></td><td style="background-color:#FFFFFF"></td></tr><tr><td style="text-align:center;background-color:#FFFFFF"></td><td style="background-color:#A87900">2018-06-24</td><td style="background-color:#FFFFFF"></td><td style="background-color:#A87900">2018-05-20</td><td style="background-color:#FFFFFF"></td><td style="background-color:#FFFFFF"></td></tr><tr><td style="text-align:center;background-color:#FFFFFF"></td><td style="background-color:#A87900">67:57</td><td style="background-color:#FFFFFF"></td><td style="background-color:#A87900">2:30:16</td><td style="background-color:#FFFFFF"></td><td style="background-color:#FFFFFF"></td></tr><tr><td style="text-align:center;background-color:#FFFFFF"></td><td style="background-color:#A87900">3rd Class</td><td style="background-color:#FFFFFF"></td><td style="background-color:#A87900">3rd Class</td><td style="background-color:#FFFFFF"></td><td style="background-color:#FFFFFF"></td></tr></table><br><br><h3><a class="headinglink" href="../records">Club Records</a></h3><table><thead><tr><th>Type</th><th>Sex</th><th>Age</th><th>Event</th><th>Note</th><th>Performance</th><th>Athlete</th><th>Location</th><th>Date</th></tr></thead><tbody><tr><td>Outdoor T&F</td><td>F</td><td>V60</td><td>200m</td><td></td><td>44.4s</td><td>Teresa Wall</td><td>Boston</td><td>05/05/2018</td></tr><tr><td>Outdoor T&F</td><td>F</td><td>V60</td><td>400m</td><td></td><td>1:43.1</td><td>Teresa Wall</td><td>Boston</td><td>05/05/2018</td></tr><tr><td>Outdoor T&F</td><td>F</td><td>V60</td><td>Long jump</td><td></td><td>2.47m</td><td>Teresa Wall</td><td>Boston</td><td>05/05/2018</td></tr><tr><td>Outdoor T&F</td><td>F</td><td>V60</td><td>Javelin</td><td>600g</td><td>6.62m</td><td>Teresa Wall</td><td>Grantham</td><td>03/06/2018</td></tr><tr><td>Outdoor T&F</td><td>F</td><td>V60</td><td>Discus</td><td>1kg</td><td>10.38m</td><td>Teresa Wall</td><td>Grantham</td><td>03/06/2018</td></tr></tbody></table><br><br><h3><a class="headinglink" href="../awards">Awards</a></h3><table><thead><tr><th>Year</th><th>Type</th><th>Award</th><th>Winner</th></tr></thead><tbody><tr><td>2009</td><td>Merit Award</td><td>Merit Award</td><td>Teresa Wall</td></tr></tbody></table><br><br><h3><a class="headinglink" href="../championship-2022/challenge">Club Championship</a></h3><em>No Club Championship races.</em><br><br><h3><a class="headinglink" href="../fell-league-2022/races">Fell League</a></h3><em>No qualifying fell races.</em><br><br><h3><a class="headinglink" href="../parkrun-2022/overall">parkrun Competition</a></h3><em>No parkruns.</em><br><br>
+</div>
+</body>
+</html>

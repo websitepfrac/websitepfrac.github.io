@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="icon" href="../logo.svg" />
+<title>PFR parkrun Competition</title>
+<link rel="stylesheet" href="../main.css" />
+<link rel="stylesheet" href="../print.css" media="print" />
+<style>.buttons{max-width:512px}</style>
+</head>
+<body>
+<div class="maindiv">
+<img
+class="logo"
+src="../logo.svg"
+alt="Penistone Footpath Runners &amp; AC"
+/>
+<div class="title">
+<h1>Penistone Footpath Runners & AC</h1>
+<h2>2022 parkrun Competition</h2>
+</div>
+<div class="buttons">
+  <a href="overall">Back to overall table</a>
+</div>
+<h2>Richard Cottam</h2><div class="buttons"><a href="../runners/richard-cottam">Click to see results for all of Richard’s competitions.</a></div><p>Lifetime total: 23 parkruns</p><p>Done 2 different parkruns (2 points).</p><p>29 total points.</p><table><tr><th class="sticky" style="text-align:left">Location</th><th class="sticky">Date</th><th class="sticky">Time</th><th class="sticky">Gender Pos</th><th class="sticky">Age Cat</th><th class="sticky">Cat Pos</th><th class="sticky">Cat Pos Points</th><th class="sticky">Age Grade</th><th class="sticky">Age Grade Points</th><th class="sticky">PB</th><th class="sticky">PB Points</th><th class="sticky">Total Points</th></tr><tr class="highlighted"><td>Penistone</td><td><a href="2022-01-15">2022-01-15</a></td><td>18:04</td><td>1</td><td>VM35–39</td><td>1</td><td>6</td><td>75.00%</td><td>6</td><td>Yes</td><td>3</td><td>15</td></tr><tr class="highlighted"><td>Frickley Country</td><td><a href="2022-05-28">2022-05-28</a></td><td>18:53</td><td>3</td><td>VM35–39</td><td>1</td><td>6</td><td>71.76%</td><td>6</td><td></td><td>0</td><td>12</td></tr></table>
+</div>
+</body>
+</html>

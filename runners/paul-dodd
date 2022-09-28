@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="icon" href="../logo.svg" />
+<title>PFR Paul Dodd</title>
+<link rel="stylesheet" href="../main.css" />
+<link rel="stylesheet" href="../print.css" media="print" />
+
+</head>
+<body>
+<div class="maindiv">
+<img
+class="logo"
+src="../logo.svg"
+alt="Penistone Footpath Runners &amp; AC"
+/>
+<div class="title">
+<h1>Penistone Footpath Runners & AC</h1>
+<h2>Paul Dodd</h2>
+</div>
+<h3><a class="headinglink" href="../road-standards/">Road Standards</a></h3><em>No road standards.</em><br><br><h3><a class="headinglink" href="../records">Club Records</a></h3><table><thead><tr><th>Type</th><th>Sex</th><th>Age</th><th>Event</th><th>Note</th><th>Performance</th><th>Athlete</th><th>Location</th><th>Date</th></tr></thead><tbody><tr><td>Outdoor T&F</td><td>M</td><td>V40</td><td>800m</td><td></td><td>2:27.0</td><td>Paul Dodd</td><td>Cudworth</td><td>30/04/2022</td></tr></tbody></table><br><br><h3><a class="headinglink" href="../awards/">Awards</a></h3><em>No awards.</em><br><br><h3><a class="headinglink" href="../championship-2022/challenge">Club Championship</a></h3><em>No Club Championship races.</em><br><br><h3><a class="headinglink" href="../fell-league-2022/races">Fell League</a></h3><em>No qualifying fell races.</em><br><br><h3><a class="headinglink" href="../parkrun-2022/overall">parkrun Competition</a></h3><em>No parkruns.</em><br><br>
+</div>
+</body>
+</html>

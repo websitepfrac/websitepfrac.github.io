@@ -1,0 +1,179 @@
+html {
+  touch-action: manipulation;
+}
+body {
+  background-color: black;
+  color: white;
+}
+* {
+  font-family: "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+}
+h1,
+h2 {
+  font-family: "Bitstream Charter", "URW Palladio L", Palatino,
+    "Palatino Linotype", "Book Antiqua", serif;
+  font-size: xx-large;
+}
+h1 {
+  color: #ce050b;
+}
+h3 {
+  font-size: x-large;
+}
+a:link,
+a:visited {
+  color: black;
+}
+a:hover {
+  color: #f0ee2a;
+}
+a:active {
+  color: #c5c452;
+  outline: none;
+}
+th a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+table {
+  color: black;
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td,
+li {
+  padding: 8px;
+}
+th,
+td {
+  text-align: center;
+}
+td:first-child {
+  text-align: left;
+}
+li:nth-child(even),
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+li:nth-child(odd),
+tr:nth-child(odd) {
+  background-color: white;
+}
+li:hover,
+tr:hover {
+  background-color: #888888;
+}
+.highlighted {
+  font-weight: bold;
+}
+th {
+  background-color: #ce050b;
+  color: white;
+}
+th:hover {
+  background-color: #9c0408;
+}
+.buttons * {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.buttons a,
+.buttons p {
+  background-color: #ce050b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  padding: 8px;
+  margin: 1px;
+  font-weight: bold;
+  font-size: medium;
+}
+.buttons a:hover {
+  background-color: #9c0408;
+}
+.buttons {
+  margin: auto;
+  display: flex;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+p,
+output,
+em {
+  font-size: large;
+}
+.left {
+  float: left;
+  padding: 0 10px 0 0;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
+.column {
+  float: left;
+  width: 33%;
+}
+.maindiv {
+  max-width: 1024px;
+  text-align: center;
+  margin: auto;
+  height: 100%;
+}
+.tablediv {
+  max-height: calc(100vh - 8px);
+  overflow: auto;
+}
+a.headinglink {
+  color: white;
+}
+.logo {
+  float: left;
+  padding-right: 40px;
+}
+.title {
+  text-align: left;
+}
+.highlight,
+.buttons a.highlight {
+  background-color: #f0ee2a;
+}
+#filters {
+  background-color: white;
+}
+#filters > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+#filters > div > div:first-child {
+  font-weight: bold;
+  color: white;
+  background-color: #ce050b;
+  padding: 12px;
+  width: 50px;
+  flex-grow: 0;
+}
+button {
+  color: black;
+  background-color: white;
+  padding: 12px;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: medium;
+}
+button:hover {
+  color: #f0ee2a;
+}
+button:active {
+  color: #c5c452;
+  outline: none;
+}

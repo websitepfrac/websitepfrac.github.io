@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="icon" href="../logo.svg" />
+<title>PFR Club Championship</title>
+<link rel="stylesheet" href="../main.css" />
+<link rel="stylesheet" href="../print.css" media="print" />
+<style>.buttons{max-width:800px}</style>
+</head>
+<body>
+<div class="maindiv">
+<img
+class="logo"
+src="../logo.svg"
+alt="Penistone Footpath Runners &amp; AC"
+/>
+<div class="title">
+<h1>Penistone Footpath Runners & AC</h1>
+<h2>2022 Club Championship</h2>
+</div>
+<br><br><div class="buttons"><div style="display:flex;flex-direction:column"><p>Overall</p><div style="display:flex"><a href="overall-female">F</a><a href="overall-male">M</a></div></div><div style="display:flex;flex-direction:column"><p>Road</p><div style="display:flex"><a href="road-female">F</a><a href="road-male">M</a></div></div><div style="display:flex;flex-direction:column"><p>Cross Country</p><div style="display:flex"><a href="cross-country-female">F</a><a href="cross-country-male">M</a></div></div><div style="display:flex;flex-direction:column"><p>Fell</p><div style="display:flex"><a href="fell-female">F</a><a href="fell-male">M</a></div></div><a href="challenge">Challenge</a><a href="https://pfrac.co.uk/competitions/club-championship">Information</a><a href="calculator">Points Calculator</a></div><h2>Vale of York Half Marathon</h2><p>Note: points are presented as integers. Hover over them to see exact values.</p><table><tr><td>Lewis Gamble-Thompson (New Marske Harriers)</td><td>M</td><td>67:26</td></tr><tr><td>Faye Birkby (Pudsey Pacers)</td><td>F</td><td>80:30</td></tr></table><p></p><em>10 Penistone runners</em><p></p><br><div class="tablediv"><table><tr><th class="sticky" style="text-align:left">Name</th><th class="sticky" style="text-align:center">Position</th><th class="sticky" style="text-align:center">Time</th><th class="sticky" style="text-align:left;padding-left:40px">Category</th><th class="sticky" style="text-align:center">Points</th></tr><tr><td><a href="tom-fryers">Tom Fryers</a></td><td> 56</td><td>81:47</td><td style="text-align:left;padding-left:40px">MU20</td><td><span title="86.08275">86</span></td></tr><tr><td><a href="simon-pike">Simon Pike</a></td><td>183</td><td>93:22</td><td style="text-align:left;padding-left:40px">MV40</td><td><span title="76.52772">77</span></td></tr><tr><td><a href="david-napier">David Napier</a></td><td>245</td><td>99:25</td><td style="text-align:left;padding-left:40px">MV45</td><td><span title="71.99871">72</span></td></tr><tr><td><a href="matthew-coldwell">Matthew Coldwell</a></td><td>281</td><td>1:42:41</td><td style="text-align:left;padding-left:40px">MV45</td><td><span title="69.66659">70</span></td></tr><tr><td><a href="michael-walsh">Michael Walsh</a></td><td>284</td><td>1:43:06</td><td style="text-align:left;padding-left:40px">MV40</td><td><span title="69.37447">69</span></td></tr><tr><td><a href="nick-pepper">Nick Pepper</a></td><td>322</td><td>1:46:17</td><td style="text-align:left;padding-left:40px">MV45</td><td><span title="67.18092">67</span></td></tr><tr><td><a href="keith-gordon">Keith Gordon</a></td><td>383</td><td>1:51:52</td><td style="text-align:left;padding-left:40px">MV70</td><td><span title="63.48768">63</span></td></tr><tr><td><a href="sarah-halstead">Sarah Halstead</a></td><td>526</td><td>2:06:22</td><td style="text-align:left;padding-left:40px">FV50</td><td><span title="67.47224">67</span></td></tr><tr><td><a href="valentina-wright">Valentina Wright</a></td><td>559</td><td>2:10:41</td><td style="text-align:left;padding-left:40px">FV50</td><td><span title="65.04928">65</span></td></tr><tr><td><a href="amelia-cottam">Amelia Cottam</a></td><td>610</td><td>2:19:39</td><td style="text-align:left;padding-left:40px">F Senior</td><td><span title="60.26226">60</span></td></tr></table></div>
+</div>
+</body>
+</html>

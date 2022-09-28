@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="icon" href="../logo.svg" />
+<title>PFR Fell League</title>
+<link rel="stylesheet" href="../main.css" />
+<link rel="stylesheet" href="../print.css" media="print" />
+<style>.buttons{max-width:800px}</style>
+</head>
+<body>
+<div class="maindiv">
+<img
+class="logo"
+src="../logo.svg"
+alt="Penistone Footpath Runners &amp; AC"
+/>
+<div class="title">
+<h1>Penistone Footpath Runners & AC</h1>
+<h2>2022 Fell League</h2>
+</div>
+<br><br><div class="buttons"><a href="fell-league-female">Female</a><a href="fell-league-male">Male</a><a href="races">Races</a><a href="https://pfrac.co.uk/competitions/fell-league">Information</a><a href="calculator">Points Calculator</a></div><h2>Dick Hudsons</h2><p>Note: points are presented as integers. Hover over them to see exact values.</p><table><tr><td>Tom Adams (Ilkley Harriers)</td><td>M</td><td>42:19</td></tr><tr><td>Hinda Harker (Keighley & Craven)</td><td>F</td><td>53:31</td></tr></table><p></p><em>4 Penistone runners</em><p></p><br><div class="tablediv"><table><tr><th class="sticky" style="text-align:left">Name</th><th class="sticky" style="text-align:center">Position</th><th class="sticky" style="text-align:center">Time</th><th class="sticky" style="text-align:left;padding-left:40px">Category</th><th class="sticky" style="text-align:center">Points</th></tr><tr><td><a href="sarah-walch">Sarah Walch</a></td><td>104</td><td>66:11</td><td style="text-align:left;padding-left:40px">FV40</td><td><span title="84.67602">85</span></td></tr><tr><td><a href="mark-graham">Mark Graham</a></td><td>110</td><td>67:02</td><td style="text-align:left;padding-left:40px">MV55</td><td><span title="66.81737">67</span></td></tr><tr><td><a href="helen-wright">Helen Wright</a></td><td>122</td><td>71:09</td><td style="text-align:left;padding-left:40px">FV40</td><td><span title="79.45623">79</span></td></tr><tr><td><a href="heather-graham">Heather Graham</a></td><td>131</td><td>75:38</td><td style="text-align:left;padding-left:40px">F Senior</td><td><span title="75.04830">75</span></td></tr></table></div>
+</div>
+</body>
+</html>
