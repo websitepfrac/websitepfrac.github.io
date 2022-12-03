@@ -13,13 +13,13 @@ h1,
 h2 {
   font-family: "Bitstream Charter", "URW Palladio L", Palatino,
     "Palatino Linotype", "Book Antiqua", serif;
-  font-size: xx-large;
+  font-size: 2rem;
 }
 h1 {
   color: #ce050b;
 }
 h3 {
-  font-size: x-large;
+  font-size: 1.5rem;
 }
 a:link,
 a:visited {
@@ -45,7 +45,7 @@ table {
 th,
 td,
 li {
-  padding: 8px;
+  padding: 0.5rem;
 }
 th,
 td {
@@ -87,10 +87,10 @@ th:hover {
   justify-content: center;
   align-items: center;
   border: 0;
-  padding: 8px;
-  margin: 1px;
+  padding: 0.5rem;
+  margin: 0.0625rem;
   font-weight: bold;
-  font-size: medium;
+  font-size: 1rem;
 }
 .buttons a:hover {
   background-color: #9c0408;
@@ -108,11 +108,11 @@ ul {
 p,
 output,
 em {
-  font-size: large;
+  font-size: 1.125rem;
 }
 .left {
   float: left;
-  padding: 0 10px 0 0;
+  padding: 0 0.625rem 0 0;
 }
 .sticky {
   position: sticky;
@@ -123,13 +123,13 @@ em {
   width: 33%;
 }
 .maindiv {
-  max-width: 1024px;
+  max-width: 64rem;
   text-align: center;
   margin: auto;
   height: 100%;
 }
 .tablediv {
-  max-height: calc(100vh - 8px);
+  max-height: calc(100vh - 0.5rem);
   overflow: auto;
 }
 a.headinglink {
@@ -137,7 +137,7 @@ a.headinglink {
 }
 .logo {
   float: left;
-  padding-right: 40px;
+  padding-right: 2.5rem;
 }
 .title {
   text-align: left;
@@ -157,18 +157,18 @@ a.headinglink {
   font-weight: bold;
   color: white;
   background-color: #ce050b;
-  padding: 12px;
-  width: 50px;
+  padding: 0.75rem;
+  width: 3.125rem;
   flex-grow: 0;
 }
 button {
   color: black;
   background-color: white;
-  padding: 12px;
+  padding: 0.75rem;
   border: none;
   text-decoration: underline;
   cursor: pointer;
-  font-size: medium;
+  font-size: 1rem;
 }
 button:hover {
   color: #f0ee2a;
