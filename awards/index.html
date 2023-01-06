@@ -36,7 +36,7 @@ function refilter_table() {
       }
     }
   }
-  headings = document.getElementById("headings").children;
+  const headings = document.getElementById("headings").children;
   for (const row of document.getElementById("filterable").children) {
     row.hidden = false;
     for (let i = 0; i < headings.length; i++) {
@@ -448,7 +448,16 @@ function refilter_table() {
 <tr><td>2021</td><td>Juniors</td><td>WH Girl</td><td>Josie Charlesworth</td></tr>
 <tr><td>2021</td><td>Merit Award</td><td>Merit Award</td><td>John & Jane Lawcock</td></tr>
 <tr><td>2021</td><td>Parkrun Competition</td><td>Parkrun Competition (Female)</td><td>Jill Scrivens</td></tr>
-<tr><td>2021</td><td>Parkrun Competition</td><td>Parkrun Competition (Male)</td><td>Stuart Woodhead</td></tr></tbody></table>
+<tr><td>2021</td><td>Parkrun Competition</td><td>Parkrun Competition (Male)</td><td>Stuart Woodhead</td></tr>
+<tr><td>2022</td><td>Championship</td><td>Challenge Champion</td><td>Sarah Halstead</td></tr>
+<tr><td>2022</td><td>Championship</td><td>Club Champion (Female)</td><td></td></tr>
+<tr><td>2022</td><td>Championship</td><td>Club Champion (Male)</td><td>James Fryers</td></tr>
+<tr><td>2022</td><td>Championship</td><td>Fell Champion (Female)</td><td>Lesley Parker</td></tr>
+<tr><td>2022</td><td>Championship</td><td>Fell Champion (Male)</td><td>James Fryers</td></tr>
+<tr><td>2022</td><td>Championship</td><td>Road Champion (Female)</td><td>Suzanne McGill</td></tr>
+<tr><td>2022</td><td>Championship</td><td>Road Champion (Male)</td><td>James Fryers</td></tr>
+<tr><td>2022</td><td>Championship</td><td>XC Champion (Female)</td><td>Suzanne McGill</td></tr>
+<tr><td>2022</td><td>Championship</td><td>XC Champion (Male)</td><td>James Fryers</td></tr></tbody></table>
 </div>
 </body>
 </html>
