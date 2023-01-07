@@ -40,7 +40,7 @@ function refilter_table() {
   for (const row of document.getElementById("filterable").children) {
     row.hidden = false;
     for (let i = 0; i < headings.length; i++) {
-      heading = headings[i].textContent;
+      const heading = headings[i].textContent;
       if (!(heading in allowed) || allowed[heading] === "All") {
         continue;
       }
@@ -51,34 +51,34 @@ function refilter_table() {
     }
   }
 }
-</script><br><br><div id="filters" style="overflow-x:auto"><div><div>Type</div><button onclick="filter(this)" class="highlight">All</button><button onclick="filter(this)">Championship</button><button onclick="filter(this)">Fell League</button><button onclick="filter(this)">Parkrun Competition</button><button onclick="filter(this)">Merit Award</button><button onclick="filter(this)">Gary Dean Award</button><button onclick="filter(this)">Juniors</button></div><div><div>Year</div><button onclick="filter(this)" class="highlight">All</button><button onclick="filter(this)">1985</button><button onclick="filter(this)">1986</button><button onclick="filter(this)">1987</button><button onclick="filter(this)">1988</button><button onclick="filter(this)">1989</button><button onclick="filter(this)">1990</button><button onclick="filter(this)">1991</button><button onclick="filter(this)">1992</button><button onclick="filter(this)">1993</button><button onclick="filter(this)">1994</button><button onclick="filter(this)">1995</button><button onclick="filter(this)">1996</button><button onclick="filter(this)">1997</button><button onclick="filter(this)">1998</button><button onclick="filter(this)">1999</button><button onclick="filter(this)">2000</button><button onclick="filter(this)">2001</button><button onclick="filter(this)">2002</button><button onclick="filter(this)">2003</button><button onclick="filter(this)">2004</button><button onclick="filter(this)">2005</button><button onclick="filter(this)">2006</button><button onclick="filter(this)">2007</button><button onclick="filter(this)">2008</button><button onclick="filter(this)">2009</button><button onclick="filter(this)">2010</button><button onclick="filter(this)">2011</button><button onclick="filter(this)">2012</button><button onclick="filter(this)">2013</button><button onclick="filter(this)">2014</button><button onclick="filter(this)">2015</button><button onclick="filter(this)">2016</button><button onclick="filter(this)">2017</button><button onclick="filter(this)">2018</button><button onclick="filter(this)">2019</button><button onclick="filter(this)">2020</button><button onclick="filter(this)">2021</button><button onclick="filter(this)">2022</button></div></div><br><table><thead><tr id="headings"><th class="sticky">Year</th><th class="sticky">Type</th><th class="sticky">Award</th><th class="sticky">Winner</th></tr></thead><tbody id="filterable"><tr><td>1985</td><td>Juniors</td><td>WH Boy</td><td>R Holliday</td></tr>
+</script><br><br><div id="filters" style="overflow-x:auto"><div><div>Type</div><button onclick="filter(this)" class="highlight">All</button><button onclick="filter(this)">Championship</button><button onclick="filter(this)">Fell League</button><button onclick="filter(this)">Parkrun Competition</button><button onclick="filter(this)">Merit Award</button><button onclick="filter(this)">Gary Dean Award</button><button onclick="filter(this)">Juniors</button></div><div><div>Year</div><button onclick="filter(this)" class="highlight">All</button><button onclick="filter(this)">1985</button><button onclick="filter(this)">1986</button><button onclick="filter(this)">1987</button><button onclick="filter(this)">1988</button><button onclick="filter(this)">1989</button><button onclick="filter(this)">1990</button><button onclick="filter(this)">1991</button><button onclick="filter(this)">1992</button><button onclick="filter(this)">1993</button><button onclick="filter(this)">1994</button><button onclick="filter(this)">1995</button><button onclick="filter(this)">1996</button><button onclick="filter(this)">1997</button><button onclick="filter(this)">1998</button><button onclick="filter(this)">1999</button><button onclick="filter(this)">2000</button><button onclick="filter(this)">2001</button><button onclick="filter(this)">2002</button><button onclick="filter(this)">2003</button><button onclick="filter(this)">2004</button><button onclick="filter(this)">2005</button><button onclick="filter(this)">2006</button><button onclick="filter(this)">2007</button><button onclick="filter(this)">2008</button><button onclick="filter(this)">2009</button><button onclick="filter(this)">2010</button><button onclick="filter(this)">2011</button><button onclick="filter(this)">2012</button><button onclick="filter(this)">2013</button><button onclick="filter(this)">2014</button><button onclick="filter(this)">2015</button><button onclick="filter(this)">2016</button><button onclick="filter(this)">2017</button><button onclick="filter(this)">2018</button><button onclick="filter(this)">2019</button><button onclick="filter(this)">2020</button><button onclick="filter(this)">2021</button><button onclick="filter(this)">2022</button></div></div><br><table><thead><tr id="headings"><th class="sticky">Year</th><th class="sticky">Type</th><th class="sticky">Award</th><th class="sticky">Winner</th></tr></thead><tbody id="filterable"><tr><td>1985</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>R Holliday</td></tr>
 <tr><td>1985</td><td>Merit Award</td><td>Merit Award</td><td>R Mortimer</td></tr>
 <tr><td>1986</td><td>Championship</td><td>Club Champion (Female)</td><td>Sylvaine Boler</td></tr>
 <tr><td>1986</td><td>Championship</td><td>Club Champion (Male)</td><td>Mike Senior</td></tr>
-<tr><td>1986</td><td>Juniors</td><td>Coaches' award</td><td>R Cartwright</td></tr>
-<tr><td>1986</td><td>Juniors</td><td>WH Boy</td><td>R Haigh</td></tr>
+<tr><td>1986</td><td>Juniors</td><td>Coaches' Award</td><td>R Cartwright</td></tr>
+<tr><td>1986</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>R Haigh</td></tr>
 <tr><td>1986</td><td>Merit Award</td><td>Merit Award</td><td>G Holliday</td></tr>
 <tr><td>1987</td><td>Championship</td><td>Club Champion (Female)</td><td>Sylvaine Boler</td></tr>
 <tr><td>1987</td><td>Championship</td><td>Club Champion (Male)</td><td>Mike Senior</td></tr>
-<tr><td>1987</td><td>Juniors</td><td>Coaches' award</td><td>R Cartwright</td></tr>
-<tr><td>1987</td><td>Juniors</td><td>WH Boy</td><td>M Jagger & R Haigh</td></tr>
+<tr><td>1987</td><td>Juniors</td><td>Coaches' Award</td><td>R Cartwright</td></tr>
+<tr><td>1987</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>M Jagger & R Haigh</td></tr>
 <tr><td>1987</td><td>Merit Award</td><td>Merit Award</td><td>Martyn Cartwright</td></tr>
 <tr><td>1988</td><td>Championship</td><td>Challenge Champion</td><td>Sylvaine Boler</td></tr>
 <tr><td>1988</td><td>Championship</td><td>Club Champion (Female)</td><td>Sylvaine Boler</td></tr>
 <tr><td>1988</td><td>Championship</td><td>Club Champion (Male)</td><td>Mike Senior</td></tr>
-<tr><td>1988</td><td>Juniors</td><td>Coaches' award</td><td>T Gibbins, R Found, B Cartwright, L Wainwright</td></tr>
-<tr><td>1988</td><td>Juniors</td><td>WH Boy</td><td>Steven Codd</td></tr>
+<tr><td>1988</td><td>Juniors</td><td>Coaches' Award</td><td>T Gibbins, R Found, B Cartwright & L Wainwright</td></tr>
+<tr><td>1988</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Steven Codd</td></tr>
 <tr><td>1988</td><td>Merit Award</td><td>Merit Award</td><td>M Shaw</td></tr>
 <tr><td>1989</td><td>Championship</td><td>Challenge Champion</td><td>Sylvaine Boler</td></tr>
 <tr><td>1989</td><td>Championship</td><td>Club Champion (Female)</td><td>Sylvaine Boler</td></tr>
 <tr><td>1989</td><td>Championship</td><td>Club Champion (Male)</td><td>A Pickles</td></tr>
-<tr><td>1989</td><td>Juniors</td><td>Coaches' award</td><td>T Gibbins</td></tr>
-<tr><td>1989</td><td>Juniors</td><td>WH Boy</td><td>S Roebuck</td></tr>
+<tr><td>1989</td><td>Juniors</td><td>Coaches' Award</td><td>T Gibbins</td></tr>
+<tr><td>1989</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>S Roebuck</td></tr>
 <tr><td>1989</td><td>Merit Award</td><td>Merit Award</td><td>E Gibbins & A Jackson</td></tr>
 <tr><td>1990</td><td>Championship</td><td>Challenge Champion</td><td>Sylvaine Boler</td></tr>
 <tr><td>1990</td><td>Championship</td><td>Club Champion (Female)</td><td>Sylvaine Boler</td></tr>
 <tr><td>1990</td><td>Championship</td><td>Club Champion (Male)</td><td>David Cartwright</td></tr>
-<tr><td>1990</td><td>Juniors</td><td>Coaches' award</td><td>N Cartwright</td></tr>
+<tr><td>1990</td><td>Juniors</td><td>Coaches' Award</td><td>N Cartwright</td></tr>
 <tr><td>1990</td><td>Merit Award</td><td>Merit Award</td><td>Philip Senior</td></tr>
 <tr><td>1991</td><td>Championship</td><td>Challenge Champion</td><td>Martyn Cartwright</td></tr>
 <tr><td>1991</td><td>Championship</td><td>Club Champion (Female)</td><td>Kath Whittingham</td></tr>
@@ -98,8 +98,8 @@ function refilter_table() {
 <tr><td>1993</td><td>Championship</td><td>Fell Champion (Female)</td><td>A Jorgensen</td></tr>
 <tr><td>1993</td><td>Championship</td><td>Fell Champion (Male)</td><td>David Lindop</td></tr>
 <tr><td>1993</td><td>Championship</td><td>Road Champion (Male)</td><td>C Calladine</td></tr>
-<tr><td>1993</td><td>Juniors</td><td>WH Boy</td><td>M Bacon</td></tr>
-<tr><td>1993</td><td>Juniors</td><td>WH Girl</td><td>S Sargent</td></tr>
+<tr><td>1993</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>M Bacon</td></tr>
+<tr><td>1993</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>S Sargent</td></tr>
 <tr><td>1993</td><td>Merit Award</td><td>Merit Award</td><td>B Tingle</td></tr>
 <tr><td>1994</td><td>Championship</td><td>Challenge Champion</td><td>Ray Brown</td></tr>
 <tr><td>1994</td><td>Championship</td><td>Club Champion (Male)</td><td>Keith Davis</td></tr>
@@ -107,18 +107,18 @@ function refilter_table() {
 <tr><td>1994</td><td>Championship</td><td>Fell Champion (Male)</td><td>Keith Davis</td></tr>
 <tr><td>1994</td><td>Championship</td><td>Road Champion (Female)</td><td>Ann Lindop</td></tr>
 <tr><td>1994</td><td>Championship</td><td>Road Champion (Male)</td><td>Keith Davis</td></tr>
-<tr><td>1994</td><td>Juniors</td><td>Coaches' award</td><td>D Gale</td></tr>
-<tr><td>1994</td><td>Juniors</td><td>WH Boy</td><td>A McLeod</td></tr>
-<tr><td>1994</td><td>Juniors</td><td>WH Girl</td><td>Kathryn Smythe</td></tr>
+<tr><td>1994</td><td>Juniors</td><td>Coaches' Award</td><td>D Gale</td></tr>
+<tr><td>1994</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>A McLeod</td></tr>
+<tr><td>1994</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Kathryn Smythe</td></tr>
 <tr><td>1994</td><td>Merit Award</td><td>Merit Award</td><td>Peter Cross</td></tr>
 <tr><td>1995</td><td>Championship</td><td>Challenge Champion</td><td>Martyn Cartwright</td></tr>
 <tr><td>1995</td><td>Championship</td><td>Club Champion (Male)</td><td>Martyn Cartwright</td></tr>
 <tr><td>1995</td><td>Championship</td><td>Fell Champion (Female)</td><td>Sylvaine Boler</td></tr>
 <tr><td>1995</td><td>Championship</td><td>Fell Champion (Male)</td><td>David Lindop</td></tr>
 <tr><td>1995</td><td>Championship</td><td>Road Champion (Male)</td><td>Martyn Cartwright</td></tr>
-<tr><td>1995</td><td>Juniors</td><td>Coaches' award</td><td>F Walton</td></tr>
-<tr><td>1995</td><td>Juniors</td><td>WH Boy</td><td>Ira Siobhan</td></tr>
-<tr><td>1995</td><td>Juniors</td><td>WH Girl</td><td>C Wright</td></tr>
+<tr><td>1995</td><td>Juniors</td><td>Coaches' Award</td><td>F Walton</td></tr>
+<tr><td>1995</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Ira Siobhan</td></tr>
+<tr><td>1995</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>C Wright</td></tr>
 <tr><td>1996</td><td>Championship</td><td>Challenge Champion</td><td>Ray Brown</td></tr>
 <tr><td>1996</td><td>Championship</td><td>Club Champion (Female)</td><td>Anne Smythe</td></tr>
 <tr><td>1996</td><td>Championship</td><td>Club Champion (Male)</td><td>Bob Innes</td></tr>
@@ -126,7 +126,7 @@ function refilter_table() {
 <tr><td>1996</td><td>Championship</td><td>Fell Champion (Male)</td><td>Keith Davis</td></tr>
 <tr><td>1996</td><td>Championship</td><td>Road Champion (Female)</td><td>Sue Higham</td></tr>
 <tr><td>1996</td><td>Championship</td><td>Road Champion (Male)</td><td>Bob Innes</td></tr>
-<tr><td>1996</td><td>Juniors</td><td>Coaches' award</td><td>N Cross</td></tr>
+<tr><td>1996</td><td>Juniors</td><td>Coaches' Award</td><td>N Cross</td></tr>
 <tr><td>1996</td><td>Merit Award</td><td>Merit Award</td><td>Roy Hale</td></tr>
 <tr><td>1997</td><td>Championship</td><td>Challenge Champion</td><td>Kelvin Bowskill</td></tr>
 <tr><td>1997</td><td>Championship</td><td>Club Champion (Female)</td><td>Sue Higham</td></tr>
@@ -143,9 +143,9 @@ function refilter_table() {
 <tr><td>1998</td><td>Championship</td><td>Fell Champion (Male)</td><td>D Griffin</td></tr>
 <tr><td>1998</td><td>Championship</td><td>Road Champion (Female)</td><td>Sue Higham</td></tr>
 <tr><td>1998</td><td>Championship</td><td>Road Champion (Male)</td><td>Bob Innes</td></tr>
-<tr><td>1998</td><td>Juniors</td><td>WH Boy</td><td>S Youel</td></tr>
-<tr><td>1998</td><td>Juniors</td><td>WH Girl</td><td>V Stevenson</td></tr>
-<tr><td>1998</td><td>Merit Award</td><td>Merit Award</td><td>Pam & Peter McLeod</td></tr>
+<tr><td>1998</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>S Youel</td></tr>
+<tr><td>1998</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>V Stevenson</td></tr>
+<tr><td>1998</td><td>Merit Award</td><td>Merit Award</td><td>Pam & Pete McLeod</td></tr>
 <tr><td>1999</td><td>Championship</td><td>Challenge Champion</td><td>Kelvin Bowskill</td></tr>
 <tr><td>1999</td><td>Championship</td><td>Club Champion (Female)</td><td>Ann Lindop</td></tr>
 <tr><td>1999</td><td>Championship</td><td>Club Champion (Male)</td><td>Kelvin Bowskill</td></tr>
@@ -153,8 +153,8 @@ function refilter_table() {
 <tr><td>1999</td><td>Championship</td><td>Fell Champion (Male)</td><td>Kelvin Bowskill</td></tr>
 <tr><td>1999</td><td>Championship</td><td>Road Champion (Female)</td><td>Sue Higham</td></tr>
 <tr><td>1999</td><td>Championship</td><td>Road Champion (Male)</td><td>Bob Innes</td></tr>
-<tr><td>1999</td><td>Juniors</td><td>WH Boy</td><td>S B Hill</td></tr>
-<tr><td>1999</td><td>Juniors</td><td>WH Girl</td><td>R Jubb</td></tr>
+<tr><td>1999</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>S B Hill</td></tr>
+<tr><td>1999</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>R Jubb</td></tr>
 <tr><td>1999</td><td>Merit Award</td><td>Merit Award</td><td>Paul Millward</td></tr>
 <tr><td>2000</td><td>Championship</td><td>Challenge Champion</td><td>Kelvin Bowskill</td></tr>
 <tr><td>2000</td><td>Championship</td><td>Club Champion (Female)</td><td>Michelle Millward</td></tr>
@@ -163,8 +163,8 @@ function refilter_table() {
 <tr><td>2000</td><td>Championship</td><td>Fell Champion (Male)</td><td>Simon Rippon</td></tr>
 <tr><td>2000</td><td>Championship</td><td>Road Champion (Female)</td><td>Michelle Millward</td></tr>
 <tr><td>2000</td><td>Championship</td><td>Road Champion (Male)</td><td>Bob Innes</td></tr>
-<tr><td>2000</td><td>Juniors</td><td>WH Boy</td><td>A Youel</td></tr>
-<tr><td>2000</td><td>Juniors</td><td>WH Girl</td><td>Rachel Davis</td></tr>
+<tr><td>2000</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>A Youel</td></tr>
+<tr><td>2000</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Rachel Davis</td></tr>
 <tr><td>2000</td><td>Merit Award</td><td>Merit Award</td><td>Ian Wragg</td></tr>
 <tr><td>2001</td><td>Championship</td><td>Challenge Champion</td><td>Mark Law</td></tr>
 <tr><td>2001</td><td>Championship</td><td>Club Champion (Female)</td><td>Michelle Millward</td></tr>
@@ -173,7 +173,7 @@ function refilter_table() {
 <tr><td>2001</td><td>Championship</td><td>Road Champion (Male)</td><td>Simon Rippon</td></tr>
 <tr><td>2001</td><td>Championship</td><td>XC Champion (Female)</td><td>Michelle Millward</td></tr>
 <tr><td>2001</td><td>Championship</td><td>XC Champion (Male)</td><td>Simon Rippon</td></tr>
-<tr><td>2001</td><td>Juniors</td><td>WH Boy</td><td>J Waddington</td></tr>
+<tr><td>2001</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>J Waddington</td></tr>
 <tr><td>2001</td><td>Merit Award</td><td>Merit Award</td><td>Ian Charlesworth</td></tr>
 <tr><td>2002</td><td>Championship</td><td>Challenge Champion</td><td>Ian Charlesworth</td></tr>
 <tr><td>2002</td><td>Championship</td><td>Club Champion (Female)</td><td>Sue Higham</td></tr>
@@ -184,8 +184,8 @@ function refilter_table() {
 <tr><td>2002</td><td>Championship</td><td>Road Champion (Male)</td><td>Bob Innes</td></tr>
 <tr><td>2002</td><td>Championship</td><td>XC Champion (Female)</td><td>Sue Higham</td></tr>
 <tr><td>2002</td><td>Championship</td><td>XC Champion (Male)</td><td>Mark Law</td></tr>
-<tr><td>2002</td><td>Juniors</td><td>WH Boy</td><td>R Andrew</td></tr>
-<tr><td>2002</td><td>Juniors</td><td>WH Girl</td><td>A Bolton</td></tr>
+<tr><td>2002</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>R Andrew</td></tr>
+<tr><td>2002</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>A Bolton</td></tr>
 <tr><td>2002</td><td>Merit Award</td><td>Merit Award</td><td>Geoff Dimelow</td></tr>
 <tr><td>2003</td><td>Championship</td><td>Challenge Champion</td><td>Pete Stanley</td></tr>
 <tr><td>2003</td><td>Championship</td><td>Club Champion (Female)</td><td>Nicky Spinks</td></tr>
@@ -196,8 +196,8 @@ function refilter_table() {
 <tr><td>2003</td><td>Championship</td><td>Road Champion (Male)</td><td>Steve Storey</td></tr>
 <tr><td>2003</td><td>Championship</td><td>XC Champion (Female)</td><td>Nicky Spinks</td></tr>
 <tr><td>2003</td><td>Championship</td><td>XC Champion (Male)</td><td>Steve Storey</td></tr>
-<tr><td>2003</td><td>Juniors</td><td>WH Boy</td><td>Josh Grimbley</td></tr>
-<tr><td>2003</td><td>Juniors</td><td>WH Girl</td><td>J Stanley</td></tr>
+<tr><td>2003</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Josh Grimbley</td></tr>
+<tr><td>2003</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>J Stanley</td></tr>
 <tr><td>2003</td><td>Merit Award</td><td>Merit Award</td><td>Bob Innes</td></tr>
 <tr><td>2004</td><td>Championship</td><td>Challenge Champion</td><td>Kelvin Bowskill</td></tr>
 <tr><td>2004</td><td>Championship</td><td>Club Champion (Female)</td><td>Nicky Spinks</td></tr>
@@ -208,8 +208,8 @@ function refilter_table() {
 <tr><td>2004</td><td>Championship</td><td>Road Champion (Male)</td><td>Stuart Woodhead</td></tr>
 <tr><td>2004</td><td>Championship</td><td>XC Champion (Female)</td><td>Nicky Spinks</td></tr>
 <tr><td>2004</td><td>Championship</td><td>XC Champion (Male)</td><td>Kelvin Bowskill</td></tr>
-<tr><td>2004</td><td>Juniors</td><td>WH Boy</td><td>R Williams</td></tr>
-<tr><td>2004</td><td>Juniors</td><td>WH Girl</td><td>E Bishop</td></tr>
+<tr><td>2004</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>R Williams</td></tr>
+<tr><td>2004</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>E Bishop</td></tr>
 <tr><td>2004</td><td>Merit Award</td><td>Merit Award</td><td>Sue Higham</td></tr>
 <tr><td>2005</td><td>Championship</td><td>Challenge Champion</td><td>Bob Innes</td></tr>
 <tr><td>2005</td><td>Championship</td><td>Club Champion (Female)</td><td>Sue Charlesworth</td></tr>
@@ -219,8 +219,8 @@ function refilter_table() {
 <tr><td>2005</td><td>Championship</td><td>Road Champion (Male)</td><td>Bob Innes</td></tr>
 <tr><td>2005</td><td>Championship</td><td>XC Champion (Female)</td><td>Sue Charlesworth</td></tr>
 <tr><td>2005</td><td>Championship</td><td>XC Champion (Male)</td><td>Gary Dean</td></tr>
-<tr><td>2005</td><td>Juniors</td><td>WH Boy</td><td>Gary Milner</td></tr>
-<tr><td>2005</td><td>Juniors</td><td>WH Girl</td><td>Bethany Stanley</td></tr>
+<tr><td>2005</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Gary Milner</td></tr>
+<tr><td>2005</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Bethany Stanley</td></tr>
 <tr><td>2005</td><td>Merit Award</td><td>Merit Award</td><td>Jane Foster</td></tr>
 <tr><td>2006</td><td>Championship</td><td>Challenge Champion</td><td>Ian Charlesworth</td></tr>
 <tr><td>2006</td><td>Championship</td><td>Club Champion (Female)</td><td>Jane Cockerton</td></tr>
@@ -231,8 +231,8 @@ function refilter_table() {
 <tr><td>2006</td><td>Championship</td><td>Road Champion (Male)</td><td>Shaun Dimelow</td></tr>
 <tr><td>2006</td><td>Championship</td><td>XC Champion (Female)</td><td>Sue Charlesworth</td></tr>
 <tr><td>2006</td><td>Championship</td><td>XC Champion (Male)</td><td>Shaun Dimelow</td></tr>
-<tr><td>2006</td><td>Juniors</td><td>WH Boy</td><td>Matthew Beaumont</td></tr>
-<tr><td>2006</td><td>Juniors</td><td>WH Girl</td><td>Amy Roebuck</td></tr>
+<tr><td>2006</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Matthew Beaumont</td></tr>
+<tr><td>2006</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Amy Roebuck</td></tr>
 <tr><td>2006</td><td>Merit Award</td><td>Merit Award</td><td>Nicky Spinks</td></tr>
 <tr><td>2007</td><td>Championship</td><td>Challenge Champion</td><td>Shaun Dimelow</td></tr>
 <tr><td>2007</td><td>Championship</td><td>Club Champion (Female)</td><td>Jane Cockerton</td></tr>
@@ -243,10 +243,10 @@ function refilter_table() {
 <tr><td>2007</td><td>Championship</td><td>Road Champion (Male)</td><td>Shaun Dimelow</td></tr>
 <tr><td>2007</td><td>Championship</td><td>XC Champion (Female)</td><td>Jane Cockerton</td></tr>
 <tr><td>2007</td><td>Championship</td><td>XC Champion (Male)</td><td>Shaun Dimelow</td></tr>
-<tr><td>2007</td><td>Juniors</td><td>U11 T&F</td><td>Amy Lea Millner</td></tr>
-<tr><td>2007</td><td>Juniors</td><td>U17 T&F</td><td>Thomas Milner</td></tr>
-<tr><td>2007</td><td>Juniors</td><td>WH Boy</td><td>Ryan Clempson</td></tr>
-<tr><td>2007</td><td>Juniors</td><td>WH Girl</td><td>V Penrose</td></tr>
+<tr><td>2007</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Ryan Clempson</td></tr>
+<tr><td>2007</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>V Penrose</td></tr>
+<tr><td>2007</td><td>Juniors</td><td>Under 11 Most Improved T&F</td><td>Amy Lea Millner</td></tr>
+<tr><td>2007</td><td>Juniors</td><td>Under 17 Most Improved T&F</td><td>Thomas Milner</td></tr>
 <tr><td>2007</td><td>Merit Award</td><td>Merit Award</td><td>Jill Davis & Ian Charlesworth</td></tr>
 <tr><td>2008</td><td>Championship</td><td>Challenge Champion</td><td>Stuart Woodhead</td></tr>
 <tr><td>2008</td><td>Championship</td><td>Club Champion (Female)</td><td>Ann Beresford</td></tr>
@@ -257,10 +257,10 @@ function refilter_table() {
 <tr><td>2008</td><td>Championship</td><td>Road Champion (Male)</td><td>S Roebuck</td></tr>
 <tr><td>2008</td><td>Championship</td><td>XC Champion (Female)</td><td>Julie Buckley</td></tr>
 <tr><td>2008</td><td>Championship</td><td>XC Champion (Male)</td><td>S Roebuck</td></tr>
-<tr><td>2008</td><td>Juniors</td><td>U11 T&F</td><td>Jacob Kendrew</td></tr>
-<tr><td>2008</td><td>Juniors</td><td>U17 T&F</td><td>Matthew Tate</td></tr>
-<tr><td>2008</td><td>Juniors</td><td>WH Boy</td><td>Kai Sunman</td></tr>
-<tr><td>2008</td><td>Juniors</td><td>WH Girl</td><td>M Cartwright</td></tr>
+<tr><td>2008</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Kai Sunman</td></tr>
+<tr><td>2008</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>M Cartwright</td></tr>
+<tr><td>2008</td><td>Juniors</td><td>Under 11 Most Improved T&F</td><td>Jacob Kendrew</td></tr>
+<tr><td>2008</td><td>Juniors</td><td>Under 17 Most Improved T&F</td><td>Matthew Tate</td></tr>
 <tr><td>2008</td><td>Merit Award</td><td>Merit Award</td><td>Susan Charlesworth</td></tr>
 <tr><td>2009</td><td>Championship</td><td>Challenge Champion</td><td>Martin Booth</td></tr>
 <tr><td>2009</td><td>Championship</td><td>Club Champion (Female)</td><td>Jane Cockerton</td></tr>
@@ -271,9 +271,9 @@ function refilter_table() {
 <tr><td>2009</td><td>Championship</td><td>Road Champion (Male)</td><td>Martin Booth</td></tr>
 <tr><td>2009</td><td>Championship</td><td>XC Champion (Female)</td><td>Julie Buckley</td></tr>
 <tr><td>2009</td><td>Championship</td><td>XC Champion (Male)</td><td>Lee Storey</td></tr>
-<tr><td>2009</td><td>Juniors</td><td>U11 T&F</td><td>Jacob Kendrew</td></tr>
-<tr><td>2009</td><td>Juniors</td><td>WH Boy</td><td>Chris Law</td></tr>
-<tr><td>2009</td><td>Juniors</td><td>WH Girl</td><td>Ania Pozorski</td></tr>
+<tr><td>2009</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Chris Law</td></tr>
+<tr><td>2009</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Ania Pozorski</td></tr>
+<tr><td>2009</td><td>Juniors</td><td>Under 11 Most Improved T&F</td><td>Jacob Kendrew</td></tr>
 <tr><td>2009</td><td>Merit Award</td><td>Merit Award</td><td>Teresa Wall</td></tr>
 <tr><td>2010</td><td>Championship</td><td>Challenge Champion</td><td>Lee Storey</td></tr>
 <tr><td>2010</td><td>Championship</td><td>Club Champion (Female)</td><td>Sarah Phelan</td></tr>
@@ -284,9 +284,9 @@ function refilter_table() {
 <tr><td>2010</td><td>Championship</td><td>Road Champion (Male)</td><td>Lee Storey & S Roebuck</td></tr>
 <tr><td>2010</td><td>Championship</td><td>XC Champion (Female)</td><td>Julie Buckley</td></tr>
 <tr><td>2010</td><td>Championship</td><td>XC Champion (Male)</td><td>Lee Storey</td></tr>
-<tr><td>2010</td><td>Juniors</td><td>Coaches' award</td><td>Ellie Sunman</td></tr>
-<tr><td>2010</td><td>Juniors</td><td>WH Boy</td><td>Joe Law</td></tr>
-<tr><td>2010</td><td>Juniors</td><td>WH Girl</td><td>M Drewery</td></tr>
+<tr><td>2010</td><td>Juniors</td><td>Coaches' Award</td><td>Ellie Sunman</td></tr>
+<tr><td>2010</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Joe Law</td></tr>
+<tr><td>2010</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>M Drewery</td></tr>
 <tr><td>2010</td><td>Merit Award</td><td>Merit Award</td><td>Martyn Cartwright</td></tr>
 <tr><td>2011</td><td>Championship</td><td>Challenge Champion</td><td>Joe Mann</td></tr>
 <tr><td>2011</td><td>Championship</td><td>Club Champion (Female)</td><td>Sue Charlesworth</td></tr>
@@ -297,11 +297,11 @@ function refilter_table() {
 <tr><td>2011</td><td>Championship</td><td>Road Champion (Male)</td><td>Joe Mann</td></tr>
 <tr><td>2011</td><td>Championship</td><td>XC Champion (Female)</td><td>Julie Buckley</td></tr>
 <tr><td>2011</td><td>Championship</td><td>XC Champion (Male)</td><td>Joe Mann</td></tr>
-<tr><td>2011</td><td>Juniors</td><td>Coaches' award</td><td>Abigail Blackburn</td></tr>
-<tr><td>2011</td><td>Juniors</td><td>U11 T&F</td><td>Abigail Blackburn</td></tr>
-<tr><td>2011</td><td>Juniors</td><td>U17 T&F</td><td>Tegan Imrie</td></tr>
-<tr><td>2011</td><td>Juniors</td><td>WH Boy</td><td>Harry Shelbourne</td></tr>
-<tr><td>2011</td><td>Juniors</td><td>WH Girl</td><td>Abigail Blackburn</td></tr>
+<tr><td>2011</td><td>Juniors</td><td>Coaches' Award</td><td>Abigail Blackburn</td></tr>
+<tr><td>2011</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Harry Shelbourne</td></tr>
+<tr><td>2011</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Abigail Blackburn</td></tr>
+<tr><td>2011</td><td>Juniors</td><td>Under 11 Most Improved T&F</td><td>Abigail Blackburn</td></tr>
+<tr><td>2011</td><td>Juniors</td><td>Under 17 Most Improved T&F</td><td>Tegan Imrie</td></tr>
 <tr><td>2011</td><td>Merit Award</td><td>Merit Award</td><td>Ray Brown</td></tr>
 <tr><td>2012</td><td>Championship</td><td>Challenge Champion</td><td>Martin Booth</td></tr>
 <tr><td>2012</td><td>Championship</td><td>Club Champion (Female)</td><td>Sarah Sykes</td></tr>
@@ -312,11 +312,11 @@ function refilter_table() {
 <tr><td>2012</td><td>Championship</td><td>Road Champion (Male)</td><td>Martin Booth</td></tr>
 <tr><td>2012</td><td>Championship</td><td>XC Champion (Female)</td><td>Sarah Sykes</td></tr>
 <tr><td>2012</td><td>Championship</td><td>XC Champion (Male)</td><td>Andy Swift</td></tr>
-<tr><td>2012</td><td>Juniors</td><td>Coaches' award</td><td>Hannah Hinchliffe</td></tr>
-<tr><td>2012</td><td>Juniors</td><td>U11 T&F</td><td>Hannah Hinchliffe</td></tr>
-<tr><td>2012</td><td>Juniors</td><td>U17 T&F</td><td>Abigail Blackburn</td></tr>
-<tr><td>2012</td><td>Juniors</td><td>WH Boy</td><td>Tom Fryers</td></tr>
-<tr><td>2012</td><td>Juniors</td><td>WH Girl</td><td>Holly Hayes</td></tr>
+<tr><td>2012</td><td>Juniors</td><td>Coaches' Award</td><td>Hannah Hinchliffe</td></tr>
+<tr><td>2012</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Tom Fryers</td></tr>
+<tr><td>2012</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Holly Hayes</td></tr>
+<tr><td>2012</td><td>Juniors</td><td>Under 11 Most Improved T&F</td><td>Hannah Hinchliffe</td></tr>
+<tr><td>2012</td><td>Juniors</td><td>Under 17 Most Improved T&F</td><td>Abigail Blackburn</td></tr>
 <tr><td>2012</td><td>Merit Award</td><td>Merit Award</td><td>Mark Law</td></tr>
 <tr><td>2013</td><td>Championship</td><td>Challenge Champion</td><td>Paul Gee</td></tr>
 <tr><td>2013</td><td>Championship</td><td>Club Champion (Female)</td><td>Sarah Sykes</td></tr>
@@ -327,11 +327,11 @@ function refilter_table() {
 <tr><td>2013</td><td>Championship</td><td>Road Champion (Male)</td><td>Steve Storey</td></tr>
 <tr><td>2013</td><td>Championship</td><td>XC Champion (Female)</td><td>Sarah Sykes</td></tr>
 <tr><td>2013</td><td>Championship</td><td>XC Champion (Male)</td><td>Andy Swift</td></tr>
-<tr><td>2013</td><td>Juniors</td><td>Coaches' award</td><td>Lizzie Deacon</td></tr>
-<tr><td>2013</td><td>Juniors</td><td>U11 T&F</td><td>James Fryers</td></tr>
-<tr><td>2013</td><td>Juniors</td><td>U17 T&F</td><td>Abigail Blackburn</td></tr>
-<tr><td>2013</td><td>Juniors</td><td>WH Boy</td><td>Edward Hunt</td></tr>
-<tr><td>2013</td><td>Juniors</td><td>WH Girl</td><td>Ella Sanders</td></tr>
+<tr><td>2013</td><td>Juniors</td><td>Coaches' Award</td><td>Lizzie Deacon</td></tr>
+<tr><td>2013</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Edward Hunt</td></tr>
+<tr><td>2013</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Ella Sanders</td></tr>
+<tr><td>2013</td><td>Juniors</td><td>Under 11 Most Improved T&F</td><td>James Fryers</td></tr>
+<tr><td>2013</td><td>Juniors</td><td>Under 17 Most Improved T&F</td><td>Abigail Blackburn</td></tr>
 <tr><td>2013</td><td>Merit Award</td><td>Merit Award</td><td>Nick Whittingham</td></tr>
 <tr><td>2014</td><td>Championship</td><td>Challenge Champion</td><td>Steve Sanders</td></tr>
 <tr><td>2014</td><td>Championship</td><td>Club Champion (Female)</td><td>Lesley Latchem</td></tr>
@@ -342,11 +342,11 @@ function refilter_table() {
 <tr><td>2014</td><td>Championship</td><td>Road Champion (Male)</td><td>Richard Mackie</td></tr>
 <tr><td>2014</td><td>Championship</td><td>XC Champion (Female)</td><td>Lesley Latchem</td></tr>
 <tr><td>2014</td><td>Championship</td><td>XC Champion (Male)</td><td>Andy Swift</td></tr>
-<tr><td>2014</td><td>Juniors</td><td>Coaches' award</td><td>Tom Fryers</td></tr>
-<tr><td>2014</td><td>Juniors</td><td>U11 T&F</td><td>James Fryers</td></tr>
-<tr><td>2014</td><td>Juniors</td><td>U17 T&F</td><td>Tom Fryers</td></tr>
-<tr><td>2014</td><td>Juniors</td><td>WH Boy</td><td>Hugh Mackie</td></tr>
-<tr><td>2014</td><td>Juniors</td><td>WH Girl</td><td>Hope Claydon</td></tr>
+<tr><td>2014</td><td>Juniors</td><td>Coaches' Award</td><td>Tom Fryers</td></tr>
+<tr><td>2014</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Hugh Mackie</td></tr>
+<tr><td>2014</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Hope Claydon</td></tr>
+<tr><td>2014</td><td>Juniors</td><td>Under 11 Most Improved T&F</td><td>James Fryers</td></tr>
+<tr><td>2014</td><td>Juniors</td><td>Under 17 Most Improved T&F</td><td>Tom Fryers</td></tr>
 <tr><td>2014</td><td>Merit Award</td><td>Merit Award</td><td>Janet Proctor</td></tr>
 <tr><td>2015</td><td>Championship</td><td>Challenge Champion</td><td>Simon Pike</td></tr>
 <tr><td>2015</td><td>Championship</td><td>Club Champion (Female)</td><td>Rachel Fox</td></tr>
@@ -357,11 +357,11 @@ function refilter_table() {
 <tr><td>2015</td><td>Championship</td><td>Road Champion (Male)</td><td>Shaun Dimelow</td></tr>
 <tr><td>2015</td><td>Championship</td><td>XC Champion (Female)</td><td>Lesley Latchem</td></tr>
 <tr><td>2015</td><td>Championship</td><td>XC Champion (Male)</td><td>Shaun Dimelow</td></tr>
-<tr><td>2015</td><td>Juniors</td><td>Coaches' award</td><td>Hugh Mackie</td></tr>
-<tr><td>2015</td><td>Juniors</td><td>U11 T&F</td><td>Ewan Mackie</td></tr>
-<tr><td>2015</td><td>Juniors</td><td>U17 T&F</td><td>Tom Fryers</td></tr>
-<tr><td>2015</td><td>Juniors</td><td>WH Boy</td><td>James Fryers</td></tr>
-<tr><td>2015</td><td>Juniors</td><td>WH Girl</td><td>Olivia Clough</td></tr>
+<tr><td>2015</td><td>Juniors</td><td>Coaches' Award</td><td>Hugh Mackie</td></tr>
+<tr><td>2015</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>James Fryers</td></tr>
+<tr><td>2015</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Olivia Clough</td></tr>
+<tr><td>2015</td><td>Juniors</td><td>Under 11 Most Improved T&F</td><td>Ewan Mackie</td></tr>
+<tr><td>2015</td><td>Juniors</td><td>Under 17 Most Improved T&F</td><td>Tom Fryers</td></tr>
 <tr><td>2015</td><td>Merit Award</td><td>Merit Award</td><td>Paul Fryers</td></tr>
 <tr><td>2016</td><td>Championship</td><td>Challenge Champion</td><td>Laura Gill</td></tr>
 <tr><td>2016</td><td>Championship</td><td>Club Champion (Female)</td><td>Julie Darigala</td></tr>
@@ -372,11 +372,11 @@ function refilter_table() {
 <tr><td>2016</td><td>Championship</td><td>Road Champion (Male)</td><td>Shaun Dimelow</td></tr>
 <tr><td>2016</td><td>Championship</td><td>XC Champion (Female)</td><td>Julie Darigala</td></tr>
 <tr><td>2016</td><td>Championship</td><td>XC Champion (Male)</td><td>Damian Kilpin</td></tr>
-<tr><td>2016</td><td>Juniors</td><td>Coaches' award</td><td>Hope Claydon</td></tr>
-<tr><td>2016</td><td>Juniors</td><td>U11 T&F</td><td>Ewan Mackie</td></tr>
-<tr><td>2016</td><td>Juniors</td><td>U17 T&F</td><td>Hugh Mackie</td></tr>
-<tr><td>2016</td><td>Juniors</td><td>WH Boy</td><td>John Halstead</td></tr>
-<tr><td>2016</td><td>Juniors</td><td>WH Girl</td><td>Morgan Crussell</td></tr>
+<tr><td>2016</td><td>Juniors</td><td>Coaches' Award</td><td>Hope Claydon</td></tr>
+<tr><td>2016</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>John Halstead</td></tr>
+<tr><td>2016</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Morgan Crussell</td></tr>
+<tr><td>2016</td><td>Juniors</td><td>Under 11 Most Improved T&F</td><td>Ewan Mackie</td></tr>
+<tr><td>2016</td><td>Juniors</td><td>Under 17 Most Improved T&F</td><td>Hugh Mackie</td></tr>
 <tr><td>2016</td><td>Merit Award</td><td>Merit Award</td><td>Alison Nockels</td></tr>
 <tr><td>2017</td><td>Championship</td><td>Challenge Champion</td><td>Sue Hall</td></tr>
 <tr><td>2017</td><td>Championship</td><td>Club Champion (Female)</td><td>Laura Gill</td></tr>
@@ -389,11 +389,11 @@ function refilter_table() {
 <tr><td>2017</td><td>Championship</td><td>XC Champion (Male)</td><td>Martin Ball</td></tr>
 <tr><td>2017</td><td>Fell League</td><td>Fell League (Female)</td><td>Sarah Jones-Morris</td></tr>
 <tr><td>2017</td><td>Fell League</td><td>Fell League (Male)</td><td>John Tomlinson</td></tr>
-<tr><td>2017</td><td>Juniors</td><td>Coaches' award</td><td>Morgan Crussell</td></tr>
-<tr><td>2017</td><td>Juniors</td><td>U11 T&F</td><td>Sam Taylor</td></tr>
-<tr><td>2017</td><td>Juniors</td><td>U17 T&F</td><td>Ewan Mackie</td></tr>
-<tr><td>2017</td><td>Juniors</td><td>WH Boy</td><td>Tom Fryers</td></tr>
-<tr><td>2017</td><td>Juniors</td><td>WH Girl</td><td>Freya Fretwell</td></tr>
+<tr><td>2017</td><td>Juniors</td><td>Coaches' Award</td><td>Morgan Crussell</td></tr>
+<tr><td>2017</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Tom Fryers</td></tr>
+<tr><td>2017</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Freya Fretwell</td></tr>
+<tr><td>2017</td><td>Juniors</td><td>Under 11 Most Improved T&F</td><td>Sam Taylor</td></tr>
+<tr><td>2017</td><td>Juniors</td><td>Under 17 Most Improved T&F</td><td>Ewan Mackie</td></tr>
 <tr><td>2017</td><td>Merit Award</td><td>Merit Award</td><td>Simon Pike</td></tr>
 <tr><td>2017</td><td>Parkrun Competition</td><td>Parkrun Competition (Female)</td><td>Jacqueline Armitage</td></tr>
 <tr><td>2017</td><td>Parkrun Competition</td><td>Parkrun Competition (Male)</td><td>Rob Lees</td></tr>
@@ -409,11 +409,11 @@ function refilter_table() {
 <tr><td>2018</td><td>Fell League</td><td>Fell League (Female)</td><td>Julie Darigala</td></tr>
 <tr><td>2018</td><td>Fell League</td><td>Fell League (Male)</td><td>Ian Charlesworth</td></tr>
 <tr><td>2018</td><td>Gary Dean Award</td><td>Gary Dean Award</td><td>Gareth Cooke</td></tr>
-<tr><td>2018</td><td>Juniors</td><td>Coaches' award</td><td>James Fryers</td></tr>
-<tr><td>2018</td><td>Juniors</td><td>U11 T&F</td><td>Leah Finch</td></tr>
-<tr><td>2018</td><td>Juniors</td><td>U17 T&F</td><td>Hugh Mackie</td></tr>
-<tr><td>2018</td><td>Juniors</td><td>WH Boy</td><td>Ewan Mackie</td></tr>
-<tr><td>2018</td><td>Juniors</td><td>WH Girl</td><td>Graihagh Turner</td></tr>
+<tr><td>2018</td><td>Juniors</td><td>Coaches' Award</td><td>James Fryers</td></tr>
+<tr><td>2018</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Ewan Mackie</td></tr>
+<tr><td>2018</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Graihagh Turner</td></tr>
+<tr><td>2018</td><td>Juniors</td><td>Under 11 Most Improved T&F</td><td>Leah Finch</td></tr>
+<tr><td>2018</td><td>Juniors</td><td>Under 17 Most Improved T&F</td><td>Hugh Mackie</td></tr>
 <tr><td>2018</td><td>Merit Award</td><td>Merit Award</td><td>Gary Dean</td></tr>
 <tr><td>2018</td><td>Parkrun Competition</td><td>Parkrun Competition (Female)</td><td>Dawn Godley</td></tr>
 <tr><td>2018</td><td>Parkrun Competition</td><td>Parkrun Competition (Male)</td><td>John Lawcock</td></tr>
@@ -429,11 +429,11 @@ function refilter_table() {
 <tr><td>2019</td><td>Fell League</td><td>Fell League (Female)</td><td>Julie Darigala</td></tr>
 <tr><td>2019</td><td>Fell League</td><td>Fell League (Male)</td><td>Brent Lindsay</td></tr>
 <tr><td>2019</td><td>Gary Dean Award</td><td>Gary Dean Award</td><td>Bill Phillips</td></tr>
-<tr><td>2019</td><td>Juniors</td><td>Coaches' award</td><td>Ewan Mackie</td></tr>
-<tr><td>2019</td><td>Juniors</td><td>U11 T&F</td><td>Graihagh Turner</td></tr>
-<tr><td>2019</td><td>Juniors</td><td>U17 T&F</td><td>James Fryers</td></tr>
-<tr><td>2019</td><td>Juniors</td><td>WH Boy</td><td>Oliver France</td></tr>
-<tr><td>2019</td><td>Juniors</td><td>WH Girl</td><td>Graihagh Turner</td></tr>
+<tr><td>2019</td><td>Juniors</td><td>Coaches' Award</td><td>Ewan Mackie</td></tr>
+<tr><td>2019</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Oliver France</td></tr>
+<tr><td>2019</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Graihagh Turner</td></tr>
+<tr><td>2019</td><td>Juniors</td><td>Under 11 Most Improved T&F</td><td>Graihagh Turner</td></tr>
+<tr><td>2019</td><td>Juniors</td><td>Under 17 Most Improved T&F</td><td>James Fryers</td></tr>
 <tr><td>2019</td><td>Merit Award</td><td>Merit Award</td><td>Pauline Senior</td></tr>
 <tr><td>2019</td><td>Parkrun Competition</td><td>Parkrun Competition (Female)</td><td>Rachael Mayston</td></tr>
 <tr><td>2019</td><td>Parkrun Competition</td><td>Parkrun Competition (Male)</td><td>Charlie Skipper</td></tr>
@@ -441,23 +441,22 @@ function refilter_table() {
 <tr><td>2020</td><td>Fell League</td><td>Fell League (Male)</td><td>Steve Sanders</td></tr>
 <tr><td>2021</td><td>Fell League</td><td>Fell League (Female)</td><td>Sarah Walch</td></tr>
 <tr><td>2021</td><td>Fell League</td><td>Fell League (Male)</td><td>Steve Storey</td></tr>
-<tr><td>2021</td><td>Juniors</td><td>Coaches' award</td><td>Flynn Rogers</td></tr>
-<tr><td>2021</td><td>Juniors</td><td>U11 T&F</td><td>Thomas Charlesworth</td></tr>
-<tr><td>2021</td><td>Juniors</td><td>U17 T&F</td><td>Maiya Charlesworth</td></tr>
-<tr><td>2021</td><td>Juniors</td><td>WH Boy</td><td>Tadek Kunicki-Holda</td></tr>
-<tr><td>2021</td><td>Juniors</td><td>WH Girl</td><td>Josie Charlesworth</td></tr>
+<tr><td>2021</td><td>Juniors</td><td>Coaches' Award</td><td>Flynn Rogers</td></tr>
+<tr><td>2021</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>Tadek Kunicki-Holda</td></tr>
+<tr><td>2021</td><td>Juniors</td><td>Junior Winter League Award (Girl)</td><td>Josie Charlesworth</td></tr>
+<tr><td>2021</td><td>Juniors</td><td>Under 11 Most Improved T&F</td><td>Thomas Charlesworth</td></tr>
+<tr><td>2021</td><td>Juniors</td><td>Under 17 Most Improved T&F</td><td>Maiya Charlesworth</td></tr>
 <tr><td>2021</td><td>Merit Award</td><td>Merit Award</td><td>John & Jane Lawcock</td></tr>
 <tr><td>2021</td><td>Parkrun Competition</td><td>Parkrun Competition (Female)</td><td>Jill Scrivens</td></tr>
 <tr><td>2021</td><td>Parkrun Competition</td><td>Parkrun Competition (Male)</td><td>Stuart Woodhead</td></tr>
-<tr><td>2022</td><td>Championship</td><td>Challenge Champion</td><td>Sarah Halstead</td></tr>
-<tr><td>2022</td><td>Championship</td><td>Club Champion (Female)</td><td></td></tr>
-<tr><td>2022</td><td>Championship</td><td>Club Champion (Male)</td><td>James Fryers</td></tr>
 <tr><td>2022</td><td>Championship</td><td>Fell Champion (Female)</td><td>Lesley Parker</td></tr>
 <tr><td>2022</td><td>Championship</td><td>Fell Champion (Male)</td><td>James Fryers</td></tr>
 <tr><td>2022</td><td>Championship</td><td>Road Champion (Female)</td><td>Suzanne McGill</td></tr>
 <tr><td>2022</td><td>Championship</td><td>Road Champion (Male)</td><td>James Fryers</td></tr>
-<tr><td>2022</td><td>Championship</td><td>XC Champion (Female)</td><td>Suzanne McGill</td></tr>
-<tr><td>2022</td><td>Championship</td><td>XC Champion (Male)</td><td>James Fryers</td></tr></tbody></table>
+<tr><td>2022</td><td>Fell League</td><td>Fell League (Female)</td><td>Sarah Walch</td></tr>
+<tr><td>2022</td><td>Fell League</td><td>Fell League (Male)</td><td>Steve Storey</td></tr>
+<tr><td>2022</td><td>Parkrun Competition</td><td>Parkrun Competition (Female)</td><td>Jill Scrivens</td></tr>
+<tr><td>2022</td><td>Parkrun Competition</td><td>Parkrun Competition (Male)</td><td>John Lawcock</td></tr></tbody></table>
 </div>
 </body>
 </html>
