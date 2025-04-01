@@ -29,26 +29,22 @@ alt="Penistone Footpath Runners &amp; AC"
 function refilter_table() {
   let allowed = {};
   for (const filter of document.getElementById("filters").children) {
-    for (const option of filter.children) {
-      if (option.classList.contains("highlight")) {
-        allowed[filter.children[0].textContent] = option.textContent;
-        break;
-      }
+    const value = Array.from(filter.children).find((option) =>
+      option.classList.contains("highlight"),
+    ).textContent;
+    if (value !== "All") {
+      allowed[filter.children[0].textContent] = value;
     }
   }
-  const headings = document.getElementById("headings").children;
+  const headings = Array.from(document.getElementById("headings").children).map(
+    (h) => h.textContent,
+  );
   for (const row of document.getElementById("filterable").children) {
-    row.hidden = false;
-    for (let i = 0; i < headings.length; i++) {
-      const heading = headings[i].textContent;
-      if (!(heading in allowed) || allowed[heading] === "All") {
-        continue;
-      }
-      if (row.children[i].textContent !== allowed[heading]) {
-        row.hidden = true;
-        break;
-      }
-    }
+    row.hidden = headings.some(
+      (heading, i) =>
+        Object.hasOwn(allowed, heading)
+        && row.children[i].textContent !== allowed[heading],
+    );
   }
 }
 </script><br><br><div id="filters" style="overflow-x:auto"><div><div>Type</div><button onclick="filter(this)" class="highlight">All</button><button onclick="filter(this)">Road</button><button onclick="filter(this)">Indoor T&F</button><button onclick="filter(this)">Outdoor T&F</button></div><div><div>Sex</div><button onclick="filter(this)" class="highlight">All</button><button onclick="filter(this)">F</button><button onclick="filter(this)">M</button></div><div><div>Age</div><button onclick="filter(this)" class="highlight">All</button><button onclick="filter(this)">U11</button><button onclick="filter(this)">U13</button><button onclick="filter(this)">U15</button><button onclick="filter(this)">U17</button><button onclick="filter(this)">U20</button><button onclick="filter(this)">Sen</button><button onclick="filter(this)">V35</button><button onclick="filter(this)">V40</button><button onclick="filter(this)">V45</button><button onclick="filter(this)">V50</button><button onclick="filter(this)">V55</button><button onclick="filter(this)">V60</button><button onclick="filter(this)">V65</button><button onclick="filter(this)">V70</button><button onclick="filter(this)">V75</button><button onclick="filter(this)">V80</button></div><div><div>Event</div><button onclick="filter(this)" class="highlight">All</button><button onclick="filter(this)">Mile (road)</button><button onclick="filter(this)">5km</button><button onclick="filter(this)">4M</button><button onclick="filter(this)">5M</button><button onclick="filter(this)">6M</button><button onclick="filter(this)">10km</button><button onclick="filter(this)">7M</button><button onclick="filter(this)">⅓ marathon</button><button onclick="filter(this)">9M</button><button onclick="filter(this)">10M</button><button onclick="filter(this)">½ marathon</button><button onclick="filter(this)">Coniston 14</button><button onclick="filter(this)">15M</button><button onclick="filter(this)">30km</button><button onclick="filter(this)">20M</button><button onclick="filter(this)">Marathon</button><button onclick="filter(this)">50m</button><button onclick="filter(this)">55m H</button><button onclick="filter(this)">60m</button><button onclick="filter(this)">60m H</button><button onclick="filter(this)">70m H</button><button onclick="filter(this)">75m</button><button onclick="filter(this)">75m H</button><button onclick="filter(this)">80m</button><button onclick="filter(this)">80m H</button><button onclick="filter(this)">100m</button><button onclick="filter(this)">100m H</button><button onclick="filter(this)">110m H</button><button onclick="filter(this)">150m</button><button onclick="filter(this)">200m</button><button onclick="filter(this)">300m</button><button onclick="filter(this)">400m</button><button onclick="filter(this)">400m H</button><button onclick="filter(this)">600m</button><button onclick="filter(this)">800m</button><button onclick="filter(this)">1000m</button><button onclick="filter(this)">1200m</button><button onclick="filter(this)">1500m</button><button onclick="filter(this)">1500m SC</button><button onclick="filter(this)">Mile (track)</button><button onclick="filter(this)">3000m</button><button onclick="filter(this)">3000m SC</button><button onclick="filter(this)">2M (track)</button><button onclick="filter(this)">5000m</button><button onclick="filter(this)">10000m</button><button onclick="filter(this)">4×80m</button><button onclick="filter(this)">4×100m</button><button onclick="filter(this)">4×400m</button><button onclick="filter(this)">3×800m</button><button onclick="filter(this)">High jump</button><button onclick="filter(this)">Long jump</button><button onclick="filter(this)">Triple jump</button><button onclick="filter(this)">Pole vault</button><button onclick="filter(this)">Rounders ball</button><button onclick="filter(this)">Cricket ball</button><button onclick="filter(this)">Javelin</button><button onclick="filter(this)">Discus</button><button onclick="filter(this)">Shot</button><button onclick="filter(this)">Hammer</button></div></div><br><table><thead><tr id="headings"><th class="sticky">Type</th><th class="sticky">Sex</th><th class="sticky">Age</th><th class="sticky">Event</th><th class="sticky">Note</th><th class="sticky">Performance</th><th class="sticky">Athlete</th><th class="sticky">Location</th><th class="sticky">Date</th></tr></thead><tbody id="filterable"><tr><td>Indoor T&F</td><td>F</td><td>U11</td><td>60m</td><td></td><td>9.86s</td><td>Jorja Finch</td><td>Sheffield</td><td>09/02/2020</td></tr>
@@ -238,7 +234,7 @@ function refilter_table() {
 <tr><td>Outdoor T&F</td><td>F</td><td>V40</td><td>Discus</td><td>1kg</td><td>12.31m</td><td>Caroline Dean</td><td>Cleckheaton</td><td>16/06/2019</td></tr>
 <tr><td>Outdoor T&F</td><td>F</td><td>V40</td><td>Shot</td><td>4kg</td><td>4.55m</td><td>Caroline Dean</td><td>Halifax</td><td>04/08/2018</td></tr>
 <tr><td>Outdoor T&F</td><td>F</td><td>V40</td><td>Hammer</td><td>4kg</td><td>13.87m</td><td>Caroline Dean</td><td>Wakefield</td><td>08/07/2018</td></tr>
-<tr><td>Road</td><td>F</td><td>V45</td><td>5km</td><td></td><td>21:29</td><td>Suzanne McGill</td><td>Sheffield</td><td>05/07/2023</td></tr>
+<tr><td>Road</td><td>F</td><td>V45</td><td>5km</td><td></td><td>19:43</td><td>Suzanne McGill</td><td>Doncaster</td><td>30/03/2025</td></tr>
 <tr><td>Road</td><td>F</td><td>V45</td><td>5M</td><td></td><td>31:58</td><td>Suzanne McGill</td><td>Wombwell</td><td>16/02/2025</td></tr>
 <tr><td>Road</td><td>F</td><td>V45</td><td>6M</td><td></td><td>41:40</td><td>Jacki Welbourne</td><td>Milton</td><td>05/1995</td></tr>
 <tr><td>Road</td><td>F</td><td>V45</td><td>10km</td><td></td><td>39:05</td><td>Sylvaine Boler</td><td>Barnsley</td><td>11/1994</td></tr>
@@ -323,7 +319,7 @@ function refilter_table() {
 <tr><td>Outdoor T&F</td><td>F</td><td>V55</td><td>Shot</td><td>4kg</td><td>4.16m</td><td>Heather Lindley</td><td>Newark</td><td>04/07/2021</td></tr>
 <tr><td>Outdoor T&F</td><td>F</td><td>V55</td><td>Hammer</td><td>4kg</td><td>15.28m</td><td>Heather Lindley</td><td>Cudworth</td><td>10/08/2019</td></tr>
 <tr><td>Road</td><td>F</td><td>V60</td><td>5km</td><td></td><td>20:56</td><td>Dawn Broom</td><td>Kingsley</td><td>30/08/2024</td></tr>
-<tr><td>Road</td><td>F</td><td>V60</td><td>5M</td><td></td><td>36:12</td><td>Dawn Broom</td><td>Sudbury</td><td>31/05/2024</td></tr>
+<tr><td>Road</td><td>F</td><td>V60</td><td>5M</td><td></td><td>35:56</td><td>Julia Johnson</td><td>Vale of York</td><td>30/03/2025</td></tr>
 <tr><td>Road</td><td>F</td><td>V60</td><td>6M</td><td></td><td>49:44</td><td>Barbara Haigh</td><td>Denby Dale</td><td>16/12/2007</td></tr>
 <tr><td>Road</td><td>F</td><td>V60</td><td>10km</td><td></td><td>44:13</td><td>Dawn Broom</td><td>Birmingham</td><td>05/05/2024</td></tr>
 <tr><td>Road</td><td>F</td><td>V60</td><td>9M</td><td></td><td>74:48</td><td>Barbara Haigh</td><td>Norton</td><td>03/2007</td></tr>
