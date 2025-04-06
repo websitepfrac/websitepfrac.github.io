@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="icon" href="../logo.svg" />
+<title>PFR Fell League</title>
+<link rel="stylesheet" href="../main.css" />
+<link rel="stylesheet" href="../print.css" media="print" />
+<style>.buttons{max-width:50rem}</style>
+</head>
+<body>
+<div class="maindiv">
+<img
+class="logo"
+src="../logo.svg"
+alt="Penistone Footpath Runners &amp; AC"
+/>
+<div class="title">
+<h1>Penistone Footpath Runners & AC</h1>
+<h2>2025–26 Fell League</h2>
+</div>
+<br><br><div class="buttons"><a href="fell-league-female">Female</a><a href="fell-league-male">Male</a><a href="races">Races</a><a href="https://pfrac.co.uk/competitions/fell-league">Information</a><a href="calculator">Points Calculator</a></div><script src="calculator.js"></script>
+<form id="calculator" oninput="updateOutput()">
+  <p>Your Time</p>
+  <table>
+    <tr>
+      <th>Hours</th>
+      <th>Minutes</th>
+      <th>Seconds</th>
+    </tr>
+    <tr>
+      <td style="text-align:center"><input name="yourtimeH" type="number" value="0" min="0"></td>
+      <td><input name="yourtimeM" type="number" value="0" min="0"></td>
+      <td><input name="yourtimeS" type="number" value="0" min="0"></td>
+    </tr>
+  </table>
+  <p>Winner's Time</p>
+  <table>
+    <tr>
+      <th>Hours</th>
+      <th>Minutes</th>
+      <th>Seconds</th>
+    </tr>
+    <tr>
+      <td style="text-align:center"><input name="wintimeH" type="number" value="0" min="0"></td>
+      <td><input name="wintimeM" type="number" value="0" min="0"></td>
+      <td><input name="wintimeS" type="number" value="0" min="0"></td>
+    </tr>
+  </table>
+  <p>Points: <output name="points" for="yourtimeS yourtimeM yourtimeH wintimeS wintimeM wintimeH">Error: Times must not be zero</output></p>
+</form>
+
+</div>
+</body>
+</html>
