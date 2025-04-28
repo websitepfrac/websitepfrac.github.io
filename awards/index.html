@@ -29,26 +29,22 @@ alt="Penistone Footpath Runners &amp; AC"
 function refilter_table() {
   let allowed = {};
   for (const filter of document.getElementById("filters").children) {
-    for (const option of filter.children) {
-      if (option.classList.contains("highlight")) {
-        allowed[filter.children[0].textContent] = option.textContent;
-        break;
-      }
+    const value = Array.from(filter.children).find((option) =>
+      option.classList.contains("highlight"),
+    ).textContent;
+    if (value !== "All") {
+      allowed[filter.children[0].textContent] = value;
     }
   }
-  const headings = document.getElementById("headings").children;
+  const headings = Array.from(document.getElementById("headings").children).map(
+    (h) => h.textContent,
+  );
   for (const row of document.getElementById("filterable").children) {
-    row.hidden = false;
-    for (let i = 0; i < headings.length; i++) {
-      const heading = headings[i].textContent;
-      if (!(heading in allowed) || allowed[heading] === "All") {
-        continue;
-      }
-      if (row.children[i].textContent !== allowed[heading]) {
-        row.hidden = true;
-        break;
-      }
-    }
+    row.hidden = headings.some(
+      (heading, i) =>
+        Object.hasOwn(allowed, heading)
+        && row.children[i].textContent !== allowed[heading],
+    );
   }
 }
 </script><br><br><div id="filters" style="overflow-x:auto"><div><div>Type</div><button onclick="filter(this)" class="highlight">All</button><button onclick="filter(this)">Championship</button><button onclick="filter(this)">Winter Handicap</button><button onclick="filter(this)">Fell League</button><button onclick="filter(this)">Parkrun Competition</button><button onclick="filter(this)">Merit Award</button><button onclick="filter(this)">Gary Dean Award</button><button onclick="filter(this)">Juniors</button></div><div><div>Year</div><button onclick="filter(this)" class="highlight">All</button><button onclick="filter(this)">1985</button><button onclick="filter(this)">1986</button><button onclick="filter(this)">1987</button><button onclick="filter(this)">1988</button><button onclick="filter(this)">1989</button><button onclick="filter(this)">1990</button><button onclick="filter(this)">1991</button><button onclick="filter(this)">1992</button><button onclick="filter(this)">1993</button><button onclick="filter(this)">1994</button><button onclick="filter(this)">1995</button><button onclick="filter(this)">1996</button><button onclick="filter(this)">1997</button><button onclick="filter(this)">1998</button><button onclick="filter(this)">1999</button><button onclick="filter(this)">2000</button><button onclick="filter(this)">2001</button><button onclick="filter(this)">2002</button><button onclick="filter(this)">2003</button><button onclick="filter(this)">2004</button><button onclick="filter(this)">2005</button><button onclick="filter(this)">2006</button><button onclick="filter(this)">2007</button><button onclick="filter(this)">2008</button><button onclick="filter(this)">2009</button><button onclick="filter(this)">2010</button><button onclick="filter(this)">2011</button><button onclick="filter(this)">2012</button><button onclick="filter(this)">2013</button><button onclick="filter(this)">2014</button><button onclick="filter(this)">2015</button><button onclick="filter(this)">2016</button><button onclick="filter(this)">2017</button><button onclick="filter(this)">2018</button><button onclick="filter(this)">2019</button><button onclick="filter(this)">2020</button><button onclick="filter(this)">2021</button><button onclick="filter(this)">2022</button><button onclick="filter(this)">2023</button><button onclick="filter(this)">2024</button></div></div><br><table><thead><tr id="headings"><th class="sticky">Year</th><th class="sticky">Type</th><th class="sticky">Award</th><th class="sticky">Winner</th></tr></thead><tbody id="filterable"><tr><td>1985</td><td>Juniors</td><td>Junior Winter League Award (Boy)</td><td>R Holliday</td></tr>
@@ -486,6 +482,8 @@ function refilter_table() {
 <tr><td>2022</td><td>Parkrun Competition</td><td>Parkrun Competition (Male)</td><td>John Lawcock</td></tr>
 <tr><td>2022</td><td>Winter Handicap</td><td>Senior WH Age Graded League</td><td>Matthew Robinson</td></tr>
 <tr><td>2022</td><td>Winter Handicap</td><td>Senior Winter Handicap</td><td>Sarah Norman</td></tr>
+<tr><td>2022</td><td>None</td><td>Orienteering (Female)</td><td>Helen Fryers</td></tr>
+<tr><td>2022</td><td>None</td><td>Orienteering (Male)</td><td>Tom Fryers</td></tr>
 <tr><td>2023</td><td>Championship</td><td>Challenge Champion</td><td>Simon Pike</td></tr>
 <tr><td>2023</td><td>Championship</td><td>Club Champion (Female)</td><td>Suzanne McGill</td></tr>
 <tr><td>2023</td><td>Championship</td><td>Club Champion (Male)</td><td>Simon Pike</td></tr>
@@ -502,8 +500,10 @@ function refilter_table() {
 <tr><td>2023</td><td>Merit Award</td><td>Merit Award</td><td>Martin Ball</td></tr>
 <tr><td>2023</td><td>Winter Handicap</td><td>Senior WH Age Graded League</td><td>Suzanne McGill</td></tr>
 <tr><td>2023</td><td>Winter Handicap</td><td>Senior Winter Handicap</td><td>Steve Owen</td></tr>
+<tr><td>2023</td><td>None</td><td>Orienteering (Female)</td><td>Charlotte Metcalfe</td></tr>
+<tr><td>2023</td><td>None</td><td>Orienteering (Male)</td><td>Tom Fryers</td></tr>
 <tr><td>2024</td><td>Championship</td><td>Challenge Champion</td><td>Matthew Coldwell</td></tr>
-<tr><td>2024</td><td>Championship</td><td>Club Champion (Female)</td><td>Lois Lopez</td></tr>
+<tr><td>2024</td><td>Championship</td><td>Club Champion (Female)</td><td>Loida Lopez</td></tr>
 <tr><td>2024</td><td>Championship</td><td>Club Champion (Male)</td><td>Matthew Coldwell</td></tr>
 <tr><td>2024</td><td>Championship</td><td>Fell Champion (Female)</td><td>Joanne Boreham</td></tr>
 <tr><td>2024</td><td>Championship</td><td>Fell Champion (Male)</td><td>George Parr</td></tr>
@@ -511,8 +511,12 @@ function refilter_table() {
 <tr><td>2024</td><td>Championship</td><td>Road Champion (Male)</td><td>Andrew Pearson</td></tr>
 <tr><td>2024</td><td>Championship</td><td>XC Champion (Female)</td><td>Suzanne McGill</td></tr>
 <tr><td>2024</td><td>Championship</td><td>XC Champion (Male)</td><td>George Parr</td></tr>
+<tr><td>2024</td><td>Fell League</td><td>Fell League (Female)</td><td>Sarah Walch</td></tr>
+<tr><td>2024</td><td>Fell League</td><td>Fell League (Male)</td><td>George Parr</td></tr>
 <tr><td>2024</td><td>Winter Handicap</td><td>Senior WH Age Graded League</td><td>Barbara Haigh</td></tr>
-<tr><td>2024</td><td>Winter Handicap</td><td>Senior Winter Handicap</td><td>Jill Scrivens</td></tr></tbody></table>
+<tr><td>2024</td><td>Winter Handicap</td><td>Senior Winter Handicap</td><td>Jill Scrivens</td></tr>
+<tr><td>2024</td><td>None</td><td>Orienteering (Female)</td><td>Jemma Williams</td></tr>
+<tr><td>2024</td><td>None</td><td>Orienteering (Male)</td><td>Jon Hallam</td></tr></tbody></table>
 </div>
 </body>
 </html>
